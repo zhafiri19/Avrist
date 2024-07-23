@@ -10,10 +10,10 @@
     }
 
     .container {
-        font-size: 12px
+        font-size: 15px
     }
 </style>
-<table class="full">
+<table class="w-full">
     <tr>
         <td>
             <h4>PT AVRIST ASSURANCE</h4>
@@ -29,15 +29,24 @@
     <br>
     <p>Dengan ini menyetujui untuk menanggung anggota-anggota/karyawan-karyawan dari</p>
 
-    <br><br>
-    <p>(Selanjutnya disebut Pemegang Polis)</p>
-    <p>dalam</p>
+    <br>
+    <br>(Selanjutnya disebut Pemegang Polis)</br>
+    dalam
 
-    <br>
-    <p>ASURANSI KECELAKAAN DIRI BERKELOMPOK</p>
-    <br>
-    <p>Nomor Polis : GPA - P31</p>
-    <p>Tanggal Berlaku : Pukul 12.00 Malam ......................... s/d .........................</p>
+    <p><b>ASURANSI KECELAKAAN DIRI BERKELOMPOK</b></p>
+    <table>
+        <tr>
+            <td>Nomor Polis</td>
+            <td>:</td>
+            <td>GPA - P31</td>
+        </tr>
+
+        <tr>
+            <td>Tanggal Berlaku</td>
+            <td>:</td>
+            <td>Pukul 12.00 Malam ..................... s/d ...........................</td>
+        </tr>
+    </table>
     <p>Pada saat polis ini masih berlaku, jika seseorang anggota/karyawan dari Tertanggung menderita cedera badan
         semata-mata karena kecelakaan yang terjadi secara langsung dan terlepas dari segala sebab lainnya
         (dimaksudkan sebagai "cedera") maka Perusahaan, berdasarkan penerimaan bukti-bukti tertulis yang wajar dan
@@ -49,19 +58,32 @@
     <p>Untuk membuktikan segala hal yang tertera diatas Perusahaan telah menjadikan polis ini dikeluarkan tanggal:
     </p>
     <p>....................................................</p>
+</div>
 
-    <br>
-    <p>
-    <h1>PT AVRIST ASSURANCE</h1>
-    </p>
-    <p>(Hereinafter called the "Company")</p>
+{{-- Bahasa inggris --}}
+<p>
+<h4>PT AVRIST ASSURANCE</h4>
+</p>
+<p>(Hereinafter called the "Company")</p>
+<div class="container">
     <p>Hereby agrees insure the members/employees of</p>
     <p>.........................</p>
     <p>(Hereinafter called the Policyholder)</p>
     <p>under</p>
     <p>GROUP PERSONAL ACCIDENT POLICY</p>
-    <p>Policy Number : GPA - P31</p>
-    <p>Effective Date : 12:00 a.m ......................... to ..........................</p>
+    <table>
+        <tr>
+            <td>Policy Number</td>
+            <td>:</td>
+            <td>GPA - P31</td>
+        </tr>
+
+        <tr>
+            <td>Effective Date</td>
+            <td>:</td>
+            <td>Pukul 12.00 Malam ..................... s/d ...........................</td>
+        </tr>
+    </table>
     <p>While this Policy is in force, if any Person shall sustain bodily injuries affected directly and
         independently of all other caused by accident (hereinafter referred to as "injury"), the Company will, on
         receipt and after approval of proofs of loss prescribed by the company, subject to the provisions,
@@ -74,4 +96,5 @@
     <br><br>
     <p style="text-align: right"><u>Direktur</u></p>
     <p style="text-align: right">Director</p>
+
 </div>
