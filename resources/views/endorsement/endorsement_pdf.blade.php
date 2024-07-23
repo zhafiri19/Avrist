@@ -1,4 +1,4 @@
-<title>{{ $title }}</title>
+{{-- <title>{{ $title }}</title>
 <style>
     .judul {
         text-align: center;
@@ -98,4 +98,4 @@
     <div>
         ~user
     </div>
-</div>
+</div> --}}
