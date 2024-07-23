@@ -11,6 +11,20 @@
         font-size: 10px;
     }
 
+    @page {
+        size: A4;
+        margin: 0;
+    }
+
+    /* @media print {
+
+        html,
+        body {
+            width: 210mm;
+            height: 297mm;
+        }
+    } */
+
     .teks {
         position: absolute;
         top: 50%;

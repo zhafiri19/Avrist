@@ -1,8 +1,31 @@
-    {{-- <title>{{ $title }}</title>
-    <h1>PT AVRIST ASSURANCE</h1>
-    <P>(Selanjutnya disebut Perusahaan)</P>
-    <img src="{{ 'Avrist.png' }}" alt="Avrist" style="float:right" width="150px">
+<title>{{ $title }}</title>
+<style>
+    .w-full {
+        width: 100%;
+    }
 
+    table {
+        width: 100%;
+        border-spacing: 0;
+    }
+
+    .container {
+        font-size: 12px
+    }
+</style>
+<table class="full">
+    <tr>
+        <td>
+            <h4>PT AVRIST ASSURANCE</h4>
+            <div>(Selanjutnya disebut Perusahaan)</div>
+        </td>
+        <td>
+            <img src="{{ 'Avrist.png' }}" alt="Avrist" style="float:right;margin-top:5px" width="150px">
+        </td>
+    </tr>
+</table>
+
+<div class="container">
     <br>
     <p>Dengan ini menyetujui untuk menanggung anggota-anggota/karyawan-karyawan dari</p>
 
@@ -50,100 +73,5 @@
     <p>.........................................................</p>
     <br><br>
     <p style="text-align: right"><u>Direktur</u></p>
-    <p style="text-align: right">Director</p> --}}
-    <style>
-        #judul {
-            text-align: center
-        }
-
-        #halaman {
-            width: auto;
-            height: auto;
-            position: absolute;
-            border: 1px solid;
-            padding-top: 30px;
-            padding-left: 30px;
-            padding-right: 30px;
-            padding-bottom: 80px;
-        }
-    </style>
-
-    <body>
-        <div id="halaman">
-            <table>
-                <tr>
-                    <td>
-                        <center>
-                            <font size="4">Yayasan perguruan 17 Agustus</font><br>
-                            <font size="5">Universitas 17 Agustus jakarta</font><br>
-                            <font size="2">jl pundorowo</font><br>
-                        </center>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="7">
-                        <hr>
-                    </td>
-                </tr>
-            </table>
-
-            <table width="470">
-                <center>
-                    <font size="4">Surat keterangan aktif</font>
-                </center><br>
-            </table>
-
-            <table>
-                <tr>
-                    <td>yang bertanda tangan di bawah ini :</td>
-                </tr>
-
-                <table width="350">
-                    <tr>
-                        <td>Nama</td>
-                        <td>:</td>
-                        <td>Christina</td>
-                    </tr>
-
-                    <tr>
-                        <td>Jabatan</td>
-                        <td>:</td>
-                        <td>Staff</td>
-                    </tr><br>
-                </table>
-
-                <tr>
-                    <td>Menyatakan dengan sebenarnya bahwa :</td>
-                </tr>
-            </table>
-
-            <table width="260">
-                <tr>
-                    <td>NBI</td>
-                    <td>:</td>
-                    <td>0007256236412</td>
-                </tr>
-
-                <tr>
-                    <td>Nama</td>
-                    <td>:</td>
-                    <td>Farhan</td>
-                </tr>
-            </table><br>
-
-            <table>
-                <tr>
-                    <td>Adalah benar mahasiswa di prodi teknik informatika</td>
-                </tr>
-            </table><br>
-
-            <div style="width: 30%; text-align:left; float: right;">
-                Farhan, 30 agustus 2024 <br>
-                yang bertanda tangan,
-            </div>
-
-            <br><br><br><br><br>
-            <div style="width: 32%;text-align:left;float:right;">Kaprodi Cyber Security</div>
-
-        </div>
-    </body>
+    <p style="text-align: right">Director</p>
+</div>

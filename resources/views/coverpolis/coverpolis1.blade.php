@@ -2,9 +2,31 @@
 
 @section('content')
     <a href="/coverpolis1/cetakpdf" target="_blank">Cetak PDF</a>
-    <h1>PT AVRIST ASSURANCE</h1>
-    <P>(Selanjutnya disebut Perusahaan)</P>
-    <img src="{{ 'Avrist.png' }}" alt="Avrist" style="float:right;margin-top:30px" width="150px">
+    <style>
+        .w-full {
+            width: 100%;
+        }
+
+        .w-half {
+            width: 50%;
+        }
+
+        table {
+            width: 100%;
+            border-spacing: 0;
+        }
+    </style>
+    <table class="w-full">
+        <tr>
+            <td>
+                <h1>PT AVRIST ASSURANCE</h1>
+                <P>(Selanjutnya disebut Perusahaan)</P>
+            </td>
+            <td class="w-half">
+                <img src="{{ 'Avrist.png' }}" alt="Avrist" style="float:right;margin-top:30px" width="150px">
+            </td>
+        </tr>
+    </table>
 
     <br>
     <p>Dengan ini menyetujui untuk menanggung anggota-anggota/karyawan-karyawan dari</p>
