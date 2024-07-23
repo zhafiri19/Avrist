@@ -85,7 +85,7 @@
     diubah atau dimodifikasi melalui
     Endosemen No. 002/I/GHS GL/22 J ini, akan tetap berlaku.</p>
 
-<div style="margin-top:20px;width: 250px;text-align: left;">
+<div style="margin-top:20px;width: 200px;text-align: left;">
     <h4>PT Avrist Assurance</h4>
     <p style="margin-top: 80px;">
         <hr>
