@@ -10,14 +10,15 @@
     }
 
     .container {
-        font-size: 15px
+        font-size: 13px;
+        text-align: justify;
     }
 </style>
 <table class="w-full">
     <tr>
         <td>
             <h4>PT AVRIST ASSURANCE</h4>
-            <div>(Selanjutnya disebut Perusahaan)</div>
+            (Selanjutnya disebut Perusahaan)
         </td>
         <td>
             <img src="{{ 'Avrist.png' }}" alt="Avrist" style="float:right;margin-top:5px" width="150px">
@@ -61,15 +62,19 @@
 </div>
 
 {{-- Bahasa inggris --}}
-<p>
-<h4>PT AVRIST ASSURANCE</h4>
-</p>
-<p>(Hereinafter called the "Company")</p>
+<table class="w-full">
+    <tr>
+        <td>
+            <h4>PT AVRIST ASSURANCE</h4>
+            <div>(Hereinafter called the "Company")</div>
+        </td>
+    </tr>
+</table>
 <div class="container">
     <p>Hereby agrees insure the members/employees of</p>
     <p>.........................</p>
-    <p>(Hereinafter called the Policyholder)</p>
-    <p>under</p>
+    <br>(Hereinafter called the Policyholder)</br>
+    under
     <p>GROUP PERSONAL ACCIDENT POLICY</p>
     <table>
         <tr>
@@ -81,7 +86,7 @@
         <tr>
             <td>Effective Date</td>
             <td>:</td>
-            <td>Pukul 12.00 Malam ..................... s/d ...........................</td>
+            <td>Pukul 12.00 a.m ..................... to ...........................</td>
         </tr>
     </table>
     <p>While this Policy is in force, if any Person shall sustain bodily injuries affected directly and
@@ -93,8 +98,8 @@
         premiums computed as provided hereinafter</p>
     <p>In withness whereof the Company has caused this Policy to be issued on :</p>
     <p>.........................................................</p>
-    <br><br>
-    <p style="text-align: right"><u>Direktur</u></p>
-    <p style="text-align: right">Director</p>
+    <br>
+    <p style="text-align: right;margin-right:50px"><u>Direktur</u><br>
+        Director</p>
 
 </div>
