@@ -1,7 +1,7 @@
 @extends('main')
 
 @section('content')
-    <h5><a href="/avrist/cetak_pdf">Cetak PDF</a></h5>
+    <a href="/coverpolis2/cetakpdf2" target="_blank" class="btn btn-primary">Cetak PDF</a>
     <br><br><br><br><br>
     <h1>PT AVRIST ASSURANCE</h1>
 

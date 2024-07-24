@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\CoverPolis1Controller;
+use App\Http\Controllers\CoverPolisController;
 use App\Http\Controllers\DokumenTransmitalController;
 use App\Http\Controllers\EndorsementController;
 use Illuminate\Support\Facades\Route;
@@ -23,8 +23,10 @@ Route::get('/', function () {
 });
 
 // Cover Polis
-Route::get('/coverpolis1', [CoverPolis1Controller::class, 'index']);
-Route::get('/coverpolis1/cetakpdf', [CoverPolis1Controller::class, 'cetakpdf']);
+Route::get('/coverpolis1', [CoverPolisController::class, 'index']);
+Route::get('/coverpolis1/cetakpdf', [CoverPolisController::class, 'cetakpdf']);
+Route::get('/coverpolis2', [CoverPolisController::class, 'coverpolis2']);
+Route::get('/coverpolis2/cetakpdf2', [CoverPolisController::class, 'cetakpdf2']);
 
 // Transmital Address
 Route::get('/transmitaladdress', [DokumenTransmitalController::class, 'index']);

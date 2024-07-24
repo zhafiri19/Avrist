@@ -7,7 +7,7 @@ use illuminate\Support\Str;
 use App\Http\Controllers\Controller;
 use Barryvdh\DomPDF\Facade\Pdf;
 
-class CoverPolis1Controller extends Controller
+class CoverPolisController extends Controller
 {
     public function index()
     {
@@ -19,5 +19,17 @@ class CoverPolis1Controller extends Controller
         $title = ["title" => "COVER POLIS (ASG - BG - GPA)"];
         $pdf = PDF::loadview('coverpolis.coverpolis1_pdf', $title);
         return $pdf->stream('COVER POLIS (ASG - BG - GPA).pdf');
+    }
+
+    public function coverpolis2()
+    {
+        return view('coverpolis.coverpolis2', ["title" => "COVER POLIS (GHS - LIFE)"]);
+    }
+
+    public function cetakpdf2()
+    {
+        $title = ["title" => "COVER POLIS (GHS - LIFE)"];
+        $pdf = PDF::loadView('coverpolis.coverpolis2_pdf', $title);
+        return $pdf->stream('COVER POLIS (GHS - LIFE).pdf');
     }
 }
