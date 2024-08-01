@@ -9,10 +9,6 @@ use Barryvdh\DomPDF\Facade\Pdf;
 
 class EndorsementController extends Controller
 {
-    public function index()
-    {
-        return view('endorsement.index', ["title" => "Endorsement"]);
-    }
 
     public function cetakpdf()
     {

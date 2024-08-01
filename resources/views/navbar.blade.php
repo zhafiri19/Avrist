@@ -45,7 +45,8 @@
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="/coverpolis1/cetakpdf" target="_blank">Cover Polis (ASG - BG
                                 - GPA)</a></li>
-                        <li><a class="dropdown-item" href="/coverpolis2">Cover Polis (GHS - LIFE)</a></li>
+                        <li><a class="dropdown-item" href="/coverpolis2/cetakpdf2" target="_blank">Cover Polis (GHS -
+                                LIFE)</a></li>
                     </ul>
                 </li>
 
@@ -64,7 +65,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="/endorsement">Endorsement</a>
+                    <a class="nav-link" aria-current="page" href="/endorsement/cetakpdf" target="_blank">Endorsement</a>
                 </li>
 
                 <li class="nav-item dropdown">
@@ -73,8 +74,10 @@
                         Dokument Transmital
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="/transmitaladdress">Transmital Address</a></li>
-                        <li><a class="dropdown-item" href="/transmitallist">Transmital List</a></li>
+                        <li><a class="dropdown-item" href="/transmitaladdress/cetakpdf" target="_blank">Transmital
+                                Address</a></li>
+                        <li><a class="dropdown-item" href="/transmitallist/cetakpdf2" target="_blank">Transmital
+                                List</a></li>
                     </ul>
                 </li>
 

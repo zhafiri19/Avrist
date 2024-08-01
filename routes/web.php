@@ -23,17 +23,12 @@ Route::get('/', function () {
 });
 
 // Cover Polis
-Route::get('/coverpolis1', [CoverPolisController::class, 'index']);
 Route::get('/coverpolis1/cetakpdf', [CoverPolisController::class, 'cetakpdf']);
-Route::get('/coverpolis2', [CoverPolisController::class, 'coverpolis2']);
 Route::get('/coverpolis2/cetakpdf2', [CoverPolisController::class, 'cetakpdf2']);
 
 // Transmital Address
-Route::get('/transmitaladdress', [DokumenTransmitalController::class, 'index']);
 Route::get('/transmitaladdress/cetakpdf', [DokumenTransmitalController::class, 'cetakpdf']);
-Route::get('/transmitallist', [DokumenTransmitalController::class, 'transmitallist']);
 Route::get('/transmitallist/cetakpdf2', [DokumenTransmitalController::class, 'cetakpdf2']);
 
 // Endorsement
-Route::get('/endorsement', [EndorsementController::class, 'index']);
 Route::get('/endorsement/cetakpdf', [EndorsementController::class, 'cetakpdf']);

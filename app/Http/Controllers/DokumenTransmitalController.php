@@ -9,10 +9,6 @@ use Barryvdh\DomPDF\Facade\Pdf;
 
 class DokumenTransmitalController extends Controller
 {
-    public function index()
-    {
-        return view('transmital.transmitaladdress', ["title" => "Transmital  Address"]);
-    }
 
     public function cetakpdf()
     {
@@ -20,11 +16,6 @@ class DokumenTransmitalController extends Controller
         $title = ["title" => "Transmital  Address"];
         $pdf = PDF::loadview('transmital.transmitaladdress_pdf', $title);
         return $pdf->stream('Transmital  Address.pdf');
-    }
-
-    public function transmitallist()
-    {
-        return view('transmital.transmitallist', ["title" => "Transmital  List"]);
     }
 
     public function cetakpdf2()
