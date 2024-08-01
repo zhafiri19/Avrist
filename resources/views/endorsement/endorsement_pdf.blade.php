@@ -27,6 +27,11 @@
         padding-top: 5px;
     }
 
+    .kode {
+        color: red;
+        /* Nomor berwarna merah */
+    }
+
     /* @page {
         size: A4;
         margin: 0;
@@ -56,7 +61,7 @@
 <div class="judul">
     <h1>PT Avrist Assurance</h1>
     <h3>Endorsement</h3>
-    <h5>No. 002/I/GHS GL/22 J </h5>
+    <h5>No. <span class="kode">002/I/GHS GL/22 J</span> </h5>
 </div>
 <p style="margin-top: 50px; margin-bottom: 30px;">Dilampirkan dan merupakan satu kesatuan serta tak terpisahkan dari
     Polis Asuransi Kelompok: 0000093579 dan Kontrak Tambahannya</p>
