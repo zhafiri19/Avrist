@@ -13,12 +13,23 @@
         font-size: 13px;
         text-align: justify;
     }
+
+    .teks {
+        line-height: 1.2;
+    }
+
+    .teks br {
+        margin-bottom: 0;
+        padding: 0;
+    }
 </style>
 <table class="w-full">
     <tr>
         <td>
-            <h4>PT AVRIST ASSURANCE</h4>
-            (Selanjutnya disebut Perusahaan)
+            <div class="teks">
+                <h3>PT AVRIST ASSURANCE</h3>
+                (Selanjutnya disebut Perusahaan)
+            </div>
         </td>
         <td>
             <img src="{{ 'Avrist.png' }}" alt="Avrist" style="float:right;margin-top:5px" width="150px">
@@ -65,14 +76,16 @@
 <table class="w-full">
     <tr>
         <td>
-            <h4>PT AVRIST ASSURANCE</h4>
-            <div>(Hereinafter called the "Company")</div>
+            <div class="teks">
+                <h5>PT AVRIST ASSURANCE</h5>
+                (Hereinafter called the "Company")
+            </div>
         </td>
     </tr>
 </table>
 <div class="container">
     <p>Hereby agrees insure the members/employees of</p>
-    <p>.........................</p>
+    <p>.....................................................</p>
     <br>(Hereinafter called the Policyholder)</br>
     under
     <p>GROUP PERSONAL ACCIDENT POLICY</p>
@@ -100,6 +113,7 @@
     <p>.........................................................</p>
     <br>
     <p style="text-align: right;margin-right:50px"><u>Direktur</u><br>
-        Director</p>
+        <i>Director</i>
+    </p>
 
 </div>

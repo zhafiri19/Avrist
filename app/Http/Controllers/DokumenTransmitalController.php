@@ -21,4 +21,17 @@ class DokumenTransmitalController extends Controller
         $pdf = PDF::loadview('transmital.transmitaladdress_pdf', $title);
         return $pdf->stream('Transmital  Address.pdf');
     }
+
+    public function transmitallist()
+    {
+        return view('transmital.transmitallist', ["title" => "Transmital  List"]);
+    }
+
+    public function cetakpdf2()
+    {
+
+        $title = ["title" => "Transmital  List"];
+        $pdf = PDF::loadview('transmital.transmitallist_pdf', $title);
+        return $pdf->stream('Transmital  List.pdf');
+    }
 }

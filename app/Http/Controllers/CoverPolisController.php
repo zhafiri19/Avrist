@@ -9,21 +9,11 @@ use Barryvdh\DomPDF\Facade\Pdf;
 
 class CoverPolisController extends Controller
 {
-    public function index()
-    {
-        return view('coverpolis.coverpolis1', ["title" => "COVER POLIS (ASG - BG - GPA)"]);
-    }
-
     public function cetakpdf()
     {
         $title = ["title" => "COVER POLIS (ASG - BG - GPA)"];
         $pdf = PDF::loadview('coverpolis.coverpolis1_pdf', $title);
         return $pdf->stream('COVER POLIS (ASG - BG - GPA).pdf');
-    }
-
-    public function coverpolis2()
-    {
-        return view('coverpolis.coverpolis2', ["title" => "COVER POLIS (GHS - LIFE)"]);
     }
 
     public function cetakpdf2()

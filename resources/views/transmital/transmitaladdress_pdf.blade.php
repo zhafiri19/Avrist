@@ -7,16 +7,17 @@
         border: 3px solid;
         position: relative;
         padding: 25px 50px 25px 50px;
+        margin: 0 auto;
         margin-top: 50px;
         font-size: 10px;
     }
 
-    @page {
+    /* @page {
         size: A4;
         margin: 0;
     }
 
-    /* @media print {
+    @media print {
 
         html,
         body {

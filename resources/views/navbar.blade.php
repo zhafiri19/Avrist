@@ -17,8 +17,23 @@
                         Surat Medical
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Blood Profile Avrist</a></li>
+                        <li><a class="dropdown-item" href="#">Approval Letter</a></li>
+                        <li><a class="dropdown-item" href="#">Decline Letter Untuk Member</a></li>
+                        <li><a class="dropdown-item" href="#">Decline Letter Untuk Perusahaan</a></li>
+                        <li><a class="dropdown-item" href="#">Follow UP Letter Member</a></li>
+                        <li><a class="dropdown-item" href="#">Follow UP Letter Perusahaan</a></li>
+                        <li><a class="dropdown-item" href="#">Innitial Letter Untuk Perusahaan</a></li>
+                        <li><a class="dropdown-item" href="#">Innitial Letter Untuk Member</a></li>
+                        <li><a class="dropdown-item" href="#">LPK Avrist Dewasa</a></li>
+                        <li><a class="dropdown-item" href="#">Rate UP Letter (surat penawaran ekstra premi)</a>
+                        </li>
+                        <li><a class="dropdown-item" href="#">Surat Penghantar Medis</a>
+                        </li>
+                        <li><a class="dropdown-item" href="#">Limit Letter</a>
+                        </li>
+                        <li><a class="dropdown-item" href="#">HDF Form</a>
+                        </li>
                     </ul>
                 </li>
 
@@ -28,7 +43,8 @@
                         Cover Polis
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="/coverpolis1">Cover Polis (ASG - BG - GPA)</a></li>
+                        <li><a class="dropdown-item" href="/coverpolis1/cetakpdf" target="_blank">Cover Polis (ASG - BG
+                                - GPA)</a></li>
                         <li><a class="dropdown-item" href="/coverpolis2">Cover Polis (GHS - LIFE)</a></li>
                     </ul>
                 </li>
@@ -58,7 +74,7 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="/transmitaladdress">Transmital Address</a></li>
-                        <li><a class="dropdown-item" href="#">Transmital List</a></li>
+                        <li><a class="dropdown-item" href="/transmitallist">Transmital List</a></li>
                     </ul>
                 </li>
 
