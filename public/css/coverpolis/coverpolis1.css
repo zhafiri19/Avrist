@@ -1,0 +1,31 @@
+.w-full {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.container {
+    font-size: 13px;
+    text-align: justify;
+}
+
+.teks {
+    line-height: 1.2;
+}
+
+.teks br {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+/* Gaya khusus untuk cetak */
+@media print {
+    @page {
+        size: A4 portrait;
+        margin: 1cm;
+        /* Atur margin sesuai kebutuhan */
+    }
+}
