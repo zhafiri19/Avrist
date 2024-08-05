@@ -17,7 +17,8 @@
                         Surat Medical
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Blood Profile Avrist</a></li>
+                        <li><a class="dropdown-item" href="/bloodprofileavrist/cetakpdf" target="_blank">Blood Profile
+                                Avrist</a></li>
                         <li><a class="dropdown-item" href="#">Approval Letter</a></li>
                         <li><a class="dropdown-item" href="#">Decline Letter Untuk Member</a></li>
                         <li><a class="dropdown-item" href="#">Decline Letter Untuk Perusahaan</a></li>

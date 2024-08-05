@@ -5,6 +5,8 @@ use App\Http\Controllers\DokumenTransmitalController;
 use App\Http\Controllers\EndorsementController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\SuratMedicalController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,6 +24,8 @@ Route::get('/', function () {
     ]);
 });
 
+// Surat Medical
+Route::get('/bloodprofileavrist/cetakpdf', [SuratMedicalController::class, 'cetakpdf']);
 // Cover Polis
 Route::get('/coverpolis1/cetakpdf', [CoverPolisController::class, 'cetakpdf']);
 Route::get('/coverpolis2/cetakpdf2', [CoverPolisController::class, 'cetakpdf2']);

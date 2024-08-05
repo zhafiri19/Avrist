@@ -1,55 +1,27 @@
-<title>{{ $title }}</title>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
-<style>
-    .container {
-        width: 55%;
-        height: 15%;
-        border: 3px solid;
-        position: relative;
-        padding: 25px 50px 25px 50px;
-        margin: 0 auto;
-        margin-top: 50px;
-        font-size: 10px;
-    }
+<!DOCTYPE html>
+<html lang="en">
 
-    /* @page {
-        size: A4;
-        margin: 0;
-    }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ $title }}</title>
+    <link rel="stylesheet" href="{{ 'css/transmital/transmitaladdress.css' }}">
+</head>
 
-    @media print {
+<body>
+    <div class="card">
+        <div class="card-content">
+            <p>TROY PURI SAKTI, PT</p>
+            <br>
+            <p>GEDUNG ATRIA @SUDIRMAN 16TH FLOOR</p>
+            <p>JL. JEND SUDIRMAN KAV 33 A KARET TENGSIN</p>
+            <p>KEC TANAH ABANG JAKARTA PUSAT 10220</p>
+            <p>DKI JAKARTA</p>
+            <p>Attn.: MS. ANGELINA PINKAN. R</p>
+        </div>
+    </div>
 
-        html,
-        body {
-            width: 210mm;
-            height: 297mm;
-        }
-    } */
+</body>
 
-    .teks {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-    }
-</style>
-
-<div class="container">
-    <table>
-        <tr>
-            <td>
-                <div class="teks">
-                    <p>TROY PURI SAKTI, PT</p>
-                    <br>
-                    <p>GEDUNG ATRIA @SUDIRMAN 16TH FLOOR</p>
-                    <p>JL. JEND SUDIRMAN KAV 33 A KARET TENGSIN</p>
-                    <p>KEC TANAH ABANG JAKARTA PUSAT 10220</p>
-                    <p>DKI JAKARTA</p>
-                    <p>Attn.: MS. ANGELINA PINKAN. R</p>
-                </div>
-            </td>
-        </tr>
-    </table>
-
-</div>
+</html>

@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+@extends('main')
+
+@section('content')
+    <h1>Selamat Datang, Pengunjung Avrist</h1>
+@endsection
+{{-- <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
@@ -558,4 +563,4 @@
         </div>
     </body>
 
-    </html>
+    </html> --}}
