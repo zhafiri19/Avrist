@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    position: relative;
+    padding: 20px;
+}
+
+.header-text {
+    text-align: center;
+    line-height: 0.7;
+}
+
+p:last-of-type {
+    margin-bottom: 0;
+}
+
+.header-logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.header-logo img {
+    width: 100px;
+    height: auto;
+}
+
+.content {
+    position: relative;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.content p {
+    margin: 5px 0;
+}
