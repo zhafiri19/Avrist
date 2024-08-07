@@ -23,23 +23,42 @@
         </div>
     </div>
 
-    <table border="1" width="100%">
-        <tr>
-            <td>
-                <div class="content">
-                    <div class="left">
-                        <p>To: xxxxxxx</p>
-                    </div>
-                    <div class="right">
-                        <p>No: 0896</p>
-                    </div>
-                </div>
-                <div class="content">
-                    <p>Attn: Mrs</p>
-                    <p>undercover</p>
-                </div>
-            </td>
-        </tr>
+
+    <div class="content">
+        <div class="left">
+            <table width="100%">
+                <tr>
+                    <td>To</td>
+                    <td>:</td>
+                    <td>xxxxxxx</td>
+                </tr>
+                <tr>
+                    <td>To</td>
+                    <td>:</td>
+                    <td>xxxxxxx</td>
+                </tr>
+                <tr>
+                    <td>To</td>
+                    <td>:</td>
+                    <td>xxxxxxx</td>
+                </tr>
+                <tr>
+                    <td>To</td>
+                    <td>:</td>
+                    <td>xxxxxxx</td>
+                </tr>
+
+                {{-- <p>To : xxxxxxxxxxxxxxxxx</p>
+                        <p>Attn : MRS. REZILINA TASYA</p>
+                        <p>Under cover of this transmittal, we are forwarding you the following:</p>
+                        <p>1 Billing NO. C3110100 FOR CLIENT XXXXXXX - NB</p> --}}
+        </div>
+        <div class="right">
+            <p>No : 006991/OUT/2023</p>
+        </div>
+    </div>
+    </td>
+    </tr>
     </table>
 
 </body>
