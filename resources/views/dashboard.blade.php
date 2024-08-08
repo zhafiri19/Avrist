@@ -2,6 +2,94 @@
 
 @section('content')
     {{-- <h1>Selamat Datang pengunjung avrist</h1> --}}
+{{-- <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Table Example</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            .table-container {
+                width: 100%;
+                max-width: 800px;
+                margin: 20px auto;
+                padding: 20px;
+                border: 1px solid #000;
+                box-sizing: border-box;
+            }
+
+            table {
+                width: 100%;
+                /* border-collapse: collapse; */
+                margin-top: 20px;
+            }
+
+            th,
+            td {
+                border: 1px solid #000;
+                padding: 8px;
+                text-align: left;
+            }
+
+            th {
+                background-color: #f2f2f2;
+            }
+
+            .total-row {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="table-container">
+            <h1>Daftar Jumlah Penonton</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Judul</th>
+                        <th>Jumlah Penonton</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Film A</td>
+                        <td>1200</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Film B</td>
+                        <td>1500</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Film C</td>
+                        <td>800</td>
+                    </tr>
+                    <!-- Tambahkan lebih banyak baris sesuai kebutuhan -->
+                </tbody>
+                <tfoot>
+                    <tr class="total-row">
+                        <td colspan="2">Total Penonton</td>
+                        <td>3500</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </body>
+
+    </html> --}}
+
     <!DOCTYPE html>
     <html lang="en">
 
