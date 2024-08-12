@@ -23,44 +23,104 @@
         </div>
     </div>
 
+    {{-- surat pertama --}}
+    <div class="transmittal-slip">
+        <table class="content-table" border="1">
+            <tr>
+                <td class="left">To :</td>
+                <td class="left-content">xxxxxxxx</td>
+                <td class="spacer"></td>
+                <td class="right">No :</td>
+                <td class="right-content">006991/OUT/2023</td>
+            </tr>
+            <tr>
+                <td class="left">Attn :</td>
+                <td colspan="4" class="left-content">Mrs. Rezilina Tasya</td>
+            </tr>
+            <tr>
+                <td colspan="5" class="cover-note">
+                    Under cover of this transmittal, we are forwarding you the following:
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5" class="billing-section">
+                    1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Billing
+                    NO. C3110100 FOR CLIENT XXXXXXX - NB
+                </td>
+            </tr>
+            <tr>
+                <td class="left">Sent by :</td>
+                <td class="left-content">Rara Fitria Rachma Putri - Outsource</td>
+                <td class="spacer"></td>
+                <td class="right">Received by :</td>
+                <td class="right-content"></td>
+            </tr>
+            <tr>
+                <td class="left">Date :</td>
+                <td class="left-content">07 Nov 2023</td>
+                <td class="spacer"></td>
+                <td class="right">Date :</td>
+                <td class="right-content"></td>
+            </tr>
+        </table>
+        <hr>
+    </div>
 
-    <div class="content">
-        <div class="left">
-            <table width="100%">
-                <tr>
-                    <td>To</td>
-                    <td>:</td>
-                    <td>xxxxxxx</td>
-                </tr>
-                <tr>
-                    <td>To</td>
-                    <td>:</td>
-                    <td>xxxxxxx</td>
-                </tr>
-                <tr>
-                    <td>To</td>
-                    <td>:</td>
-                    <td>xxxxxxx</td>
-                </tr>
-                <tr>
-                    <td>To</td>
-                    <td>:</td>
-                    <td>xxxxxxx</td>
-                </tr>
-
-                {{-- <p>To : xxxxxxxxxxxxxxxxx</p>
-                        <p>Attn : MRS. REZILINA TASYA</p>
-                        <p>Under cover of this transmittal, we are forwarding you the following:</p>
-                        <p>1 Billing NO. C3110100 FOR CLIENT XXXXXXX - NB</p> --}}
+    {{-- surat kedua --}}
+    <div class="header">
+        <div class="header-text">
+            <h1>PT AVRIST ASSURANCE</h1>
+            <p>Employee Benefit Department</p>
+            <p>Transmittal Slip</p>
         </div>
-        <div class="right">
-            <p>No : 006991/OUT/2023</p>
+        {{-- logo Avrist --}}
+        <div class="header-logo">
+            <img src="{{ 'avrist.png' }}" alt="PT Avrist Assurance">
         </div>
     </div>
-    </td>
-    </tr>
-    </table>
+    {{-- isi surat kedua --}}
+    <div class="transmittal-slip">
+        <table class="content-table" border="1">
+            <tr>
+                <td class="left">To :</td>
+                <td class="left-content">xxxxxxxx</td>
+                <td class="spacer"></td>
+                <td class="right">No :</td>
+                <td class="right-content">006991/OUT/2023</td>
+            </tr>
+            <tr>
+                <td class="left">Attn :</td>
+                <td colspan="4" class="left-content">Mrs. Rezilina Tasya</td>
+            </tr>
+            <tr>
+                <td colspan="5" class="cover-note">
+                    Under cover of this transmittal, we are forwarding you the following:
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5" class="billing-section">
+                    1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Billing NO. C3110100 FOR CLIENT
+                    xxxxxxxxxxxxxxxxxxx
 
+
+                </td>
+            </tr>
+            <tr>
+                <td class="left">Sent by :</td>
+                <td class="left-content">Rara Fitria Rachma Putri - Outsource</td>
+                <td class="spacer"></td>
+                <td class="right">Received by :</td>
+                <td class="right-content"></td>
+            </tr>
+            <tr>
+                <td class="left">Date :</td>
+                <td class="left-content">07 Nov 2023</td>
+                <td class="spacer"></td>
+                <td class="right">Date :</td>
+                <td class="right-content"></td>
+            </tr>
+        </table>
+    </div>
 </body>
 
 </html>
