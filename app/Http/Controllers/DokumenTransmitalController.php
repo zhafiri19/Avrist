@@ -22,7 +22,7 @@ class DokumenTransmitalController extends Controller
     {
 
         $title = ["title" => "Transmital  List"];
-        $pdf = PDF::loadview('transmital.transmitallist_pdf', $title);
+        $pdf = PDF::loadview('transmital.transmitallist_pdf', $title)->setPaper('a4', 'portrait');
         return $pdf->stream('Transmital  List.pdf');
     }
 }

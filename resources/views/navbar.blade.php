@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="{{ 'css/dropdown.css' }}">
 <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
     <div class="container">
         <a class="navbar-brand" href="/">Avrist</a>
@@ -17,7 +18,8 @@
                         Surat Medical
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Blood Profile Avrist</a></li>
+                        <li><a class="dropdown-item" href="/bloodprofileavrist/cetakpdf" target="_blank">Blood Profile
+                                Avrist</a></li>
                         <li><a class="dropdown-item" href="#">Approval Letter</a></li>
                         <li><a class="dropdown-item" href="#">Decline Letter Untuk Member</a></li>
                         <li><a class="dropdown-item" href="#">Decline Letter Untuk Perusahaan</a></li>
@@ -56,16 +58,34 @@
                         Undewriting
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Tarikan report claim dan premium per polis Code
-                                ID</a></li>
-                        <li><a class="dropdown-item" href="#">Form Payment Request</a></li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">Tarikan report claim dan
+                                premium per polis Code
+                                ID</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/">Claim ratio</a></li>
+                                <li><a class="dropdown-item" href="#">Summary</a></li>
+                                <li><a class="dropdown-item" href="#">Detail Claim</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">Form Payment
+                                Request</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/">Guidelines</a></li>
+                                <li><a class="dropdown-item" href="#">PR V2.1.2022</a></li>
+                            </ul>
+                        </li>
                         <li><a class="dropdown-item" href="#">Perhitungan Profit Sharing</a></li>
                         <li><a class="dropdown-item" href="#">Perhitungan Stop Loss</a></li>
                         <li><a class="dropdown-item" href="#">Statement of Local Loss Free atau LLF</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="/endorsement/cetakpdf" target="_blank">Endorsement</a>
+                    <a class="nav-link" aria-current="page" href="/endorsement/cetakpdf"
+                        target="_blank">Endorsement</a>
                 </li>
 
                 <li class="nav-item dropdown">
@@ -87,6 +107,47 @@
                         Data Group
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">ASO Billing</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/">ASO DEPOSIT
+                                        AWAL_0000093795_100_A000000111</a></li>
+                                <li><a class="dropdown-item" href="#">ASO FEE ALTERATION_93865 AMERTA INDAH
+                                        OTSUKA, PT</a></li>
+                                <li><a class="dropdown-item" href="#">ASO FEE AWAL 93795 ASET DIGITAL BERKAT</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">ASO
+                                        PEMAKAIAN_0000093649_100_A000000107</a></li>
+                                <li><a class="dropdown-item" href="#">ASO_DETAIL LIST
+                                        PEMAKAIAN_0000093649_100_A000000107</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">Polis Contract</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Submenu Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another Submenu Action</a></li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" href="#"
+                                        id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">Convent</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">POLICY SCHEDULE</a></li>
+                                        <li><a class="dropdown-item" href="#">RIDER CI</a></li>
+                                        <li><a class="dropdown-item" href="#">RIDER TPD</a></li>
+                                        <li><a class="dropdown-item" href="#">RIDER_ADD</a></li>
+                                        <li><a class="dropdown-item" href="#">SUPPLEMANTARY OP</a></li>
+                                        <li><a class="dropdown-item" href="#">SUPPLEMANTARY DEP</a></li>
+                                        <li><a class="dropdown-item" href="#">SUPPLEMANTARY DT</a></li>
+                                        <li><a class="dropdown-item" href="#">SUPPLEMANTARY JAMINAN</a></li>
+                                        <li><a class="dropdown-item" href="#">SUPPLEMANTARY MT</a></li>
+                                        <li><a class="dropdown-item" href="#">SUPPLEMANTARY VS</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
                         <li><a class="dropdown-item" href="#">Surat pengantar billing dan Billing modal atau
                                 alteration</a></li>
                         <li><a class="dropdown-item" href="#">Surat pengantar billing dan Billing Renewal</a>
@@ -120,3 +181,4 @@
         </div>
     </div>
 </nav>
+<script src="{{ 'js/dropdown.js' }}"></script>
