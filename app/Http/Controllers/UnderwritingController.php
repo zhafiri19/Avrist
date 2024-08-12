@@ -13,7 +13,7 @@ class UnderwritingController extends Controller
     {
 
         $title = ["title" => "Endorsement"];
-        $pdf = PDF::loadview('endorsement.endorsement_pdf', $title);
-        return $pdf->stream('Endorsement.pdf');
+        $pdf = PDF::loadview('underwriting.tarikan-report-claim-dan-premium-per-polis-Code-ID.claim-ratio_pdf', $title);
+        return $pdf->stream('Claim Ratio.pdf');
     }
 }

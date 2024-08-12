@@ -6,6 +6,7 @@ use App\Http\Controllers\EndorsementController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\SuratMedicalController;
+use App\Http\Controllers\UnderwritingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,6 +30,8 @@ Route::get('/bloodprofileavrist/cetakpdf', [SuratMedicalController::class, 'ceta
 // Cover Polis
 Route::get('/coverpolis1/cetakpdf', [CoverPolisController::class, 'cetakpdf']);
 Route::get('/coverpolis2/cetakpdf2', [CoverPolisController::class, 'cetakpdf2']);
+// Underwriting
+Route::get('/claimratio/cetakpdf', [UnderwritingController::class, 'cetakpdf']);
 
 // Dokument Transmital
 Route::get('/transmitaladdress/cetakpdf', [DokumenTransmitalController::class, 'cetakpdf']);

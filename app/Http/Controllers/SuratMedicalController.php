@@ -15,11 +15,4 @@ class SuratMedicalController extends Controller
         $pdf = PDF::loadview('suratmedical.bloodprofileavrist_pdf', $title);
         return $pdf->stream('Blood Profile Avrist.pdf');
     }
-
-    public function cetakpdf2()
-    {
-        $title = ["title" => "COVER POLIS (GHS - LIFE)"];
-        $pdf = PDF::loadView('coverpolis.coverpolis2_pdf', $title);
-        return $pdf->stream('COVER POLIS (GHS - LIFE).pdf');
-    }
 }
