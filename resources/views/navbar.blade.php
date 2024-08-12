@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="{{ 'css/dropdown.css' }}">
 <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
     <div class="container">
         <a class="navbar-brand" href="/">Avrist</a>
@@ -127,14 +126,29 @@
                             <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">Polis Contract</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Submenu Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another Submenu Action</a></li>
                                 <li class="dropdown-submenu">
                                     <a class="dropdown-item dropdown-toggle" href="#"
                                         id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">Convent</a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="#">POLICY SCHEDULE</a></li>
+                                        <li><a class="dropdown-item" href="#">RIDER CI</a></li>
+                                        <li><a class="dropdown-item" href="#">RIDER TPD</a></li>
+                                        <li><a class="dropdown-item" href="#">RIDER_ADD</a></li>
+                                        <li><a class="dropdown-item" href="#">SUPPLEMANTARY OP</a></li>
+                                        <li><a class="dropdown-item" href="#">SUPPLEMANTARY DEP</a></li>
+                                        <li><a class="dropdown-item" href="#">SUPPLEMANTARY DT</a></li>
+                                        <li><a class="dropdown-item" href="#">SUPPLEMANTARY JAMINAN</a></li>
+                                        <li><a class="dropdown-item" href="#">SUPPLEMANTARY MT</a></li>
+                                        <li><a class="dropdown-item" href="#">SUPPLEMANTARY VS</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" href="#"
+                                        id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">Syariah</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">POLICY SCHEDULE_SHARIA</a></li>
                                         <li><a class="dropdown-item" href="#">RIDER CI</a></li>
                                         <li><a class="dropdown-item" href="#">RIDER TPD</a></li>
                                         <li><a class="dropdown-item" href="#">RIDER_ADD</a></li>
@@ -164,21 +178,89 @@
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="#">Reminder Notice Billing</a></li>
                         <li><a class="dropdown-item" href="#">Report AGEING - Present BOD</a></li>
-                        <li><a class="dropdown-item" href="#">Report Ageing Billing - Detail Metabase As Of 06
-                                Juli 2023</a></li>
-                        <li><a class="dropdown-item" href="#">Summary Report Ageing - Present BOD</a></li>
-                        <li><a class="dropdown-item" href="#">REPORT ASO BALANCE PER POLIS - SUBOFFICE</a></li>
-                        <li><a class="dropdown-item" href="#">REPORT CASHIER</a></li>
-                        <li><a class="dropdown-item" href="#">REPORT OS EXCESS CLAIM</a></li>
-                        <li><a class="dropdown-item" href="#">REPORT OUTSTANDING EXCESS - COLLECTION</a></li>
-                        <li><a class="dropdown-item" href="#">REPORT OUTSTANDING PREMI - COLLECTION</a>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">Report Ageing Billing
+                                - Detail Metabase As Of 06
+                                Juli 2023</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">OriginalBilling-RunningData</a></li>
+                                <li><a class="dropdown-item" href="#">OriginalBilling-SEP20</a></li>
+                                <li><a class="dropdown-item" href="#">OSBalance-RunningData</a></li>
+                                <li><a class="dropdown-item" href="#">OS >180</a></li>
+                                <li><a class="dropdown-item" href="#">OSBalance-8SEP20</a></li>
+                                <li><a class="dropdown-item" href="#">Detail</a></li>
+                                <li><a class="dropdown-item" href="#">Summary_RunningData</a></li>
+                                <li><a class="dropdown-item" href="#">Summary_8SEP20</a></li>
+                            </ul>
                         </li>
-                        <li><a class="dropdown-item" href="#">SOA</a></li>
+                        <li><a class="dropdown-item" href="#">Summary Report Ageing - Present BOD</a></li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">REPORT ASO BALANCE PER
+                                POLIS - SUBOFFICE</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">BALANCE 2023</a></li>
+                                <li><a class="dropdown-item" href="#">100-22</a></li>
+                                <li><a class="dropdown-item" href="#">101-22</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">REPORT CASHIER</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">REPORT PAID PREMI</a></li>
+                                <li><a class="dropdown-item" href="#">REPORT EXCES</a></li>
+                                <li><a class="dropdown-item" href="#">REPORT PAYMENT REQ REFUND</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">REPORT OS EXCESS
+                                CLAIM</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">SUMMARY</a></li>
+                                <li><a class="dropdown-item" href="#">POLICY</a></li>
+                                <li><a class="dropdown-item" href="#">MEMBER</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">REPORT OUTSTANDING
+                                EXCESS - COLLECTION</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">SUMMARY</a></li>
+                                <li><a class="dropdown-item" href="#">POLICY</a></li>
+                                <li><a class="dropdown-item" href="#">MEMBER</a></li>
+                                <li><a class="dropdown-item" href="#">OS POLIS >180DAYS</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">REPORT OUTSTANDING
+                                PREMI - COLLECTION</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">OriginalBilling-RunningData</a></li>
+                                <li><a class="dropdown-item" href="#">OSBalance-RunningData</a></li>
+                                <li><a class="dropdown-item" href="#">OS >180</a></li>
+                                <li><a class="dropdown-item" href="#">Detail</a></li>
+                                <li><a class="dropdown-item" href="#">Summary_RunningData</a></li>
+                            </ul>
+                        </li>
+                </li>
+                <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">SOA</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">PREMI</a></li>
+                        <li><a class="dropdown-item" href="#">EXCESS CLAIM</a></li>
                     </ul>
                 </li>
+                </li>
+            </ul>
+            </li>
 
             </ul>
         </div>
     </div>
 </nav>
-<script src="{{ 'js/dropdown.js' }}"></script>
