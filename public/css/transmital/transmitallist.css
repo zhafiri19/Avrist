@@ -79,7 +79,6 @@ p:last-of-type {
     padding-bottom: 20px;
 }
 
-<<<<<<< HEAD
 .spacing {
     padding-top: 10em; /* Memberikan jarak 10 line-height */
 }
@@ -87,10 +86,4 @@ p:last-of-type {
 .horizontal-line {
     border-top: 1px solid #000;
     margin-top: 15px;
-=======
-hr {
-    border: none;
-    border-top: 1px solid #000;
-    margin-top: 20px;
->>>>>>> 09f7c8e16732b72f504eb2071a7bafaf3a317630
 }
