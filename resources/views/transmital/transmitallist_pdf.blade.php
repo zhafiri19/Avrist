@@ -46,7 +46,10 @@
                 <td colspan="5" class="billing-section">
                     1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Billing
                     NO. C3110100 FOR CLIENT XXXXXXX - NB
+<<<<<<< HEAD
                     <div class="spacing"></div>
+=======
+>>>>>>> 09f7c8e16732b72f504eb2071a7bafaf3a317630
                 </td>
             </tr>
             <tr>
@@ -64,10 +67,16 @@
                 <td class="right-content"></td>
             </tr>
         </table>
+<<<<<<< HEAD
         <div class="horizontal-line"></div>
     </div>
 
 
+=======
+        <hr>
+    </div>
+
+>>>>>>> 09f7c8e16732b72f504eb2071a7bafaf3a317630
     {{-- surat kedua --}}
     <div class="header">
         <div class="header-text">
@@ -80,7 +89,10 @@
             <img src="{{ 'avrist.png' }}" alt="PT Avrist Assurance">
         </div>
     </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 09f7c8e16732b72f504eb2071a7bafaf3a317630
     {{-- isi surat kedua --}}
     <div class="transmittal-slip">
         <table class="content-table" border="1">
@@ -104,7 +116,12 @@
                 <td colspan="5" class="billing-section">
                     1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Billing NO. C3110100 FOR CLIENT
                     xxxxxxxxxxxxxxxxxxx
+<<<<<<< HEAD
                     <div class="spacing"></div>
+=======
+
+
+>>>>>>> 09f7c8e16732b72f504eb2071a7bafaf3a317630
                 </td>
             </tr>
             <tr>

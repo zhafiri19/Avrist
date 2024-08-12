@@ -181,4 +181,8 @@
         </div>
     </div>
 </nav>
+<<<<<<< HEAD
 <script src="{{ 'js/dropdown.js' }}"></script>
+=======
+<script src="{{ 'css/dropdown.js' }}"></script>
+>>>>>>> 09f7c8e16732b72f504eb2071a7bafaf3a317630
