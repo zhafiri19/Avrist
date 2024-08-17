@@ -60,6 +60,12 @@
         </div>
     </div>
 
+    <div class="footer">
+        <div class="left">Endorsement No. 002/I/GHS GL/22 J</div>
+        <div class="right">Page 1 of 1</div>
+    </div>
+
+
 </body>
 
 </html>

@@ -4,75 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Claim Ratio</title>
-    {{-- <link rel="stylesheet" href="styles.css"> --}}
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            /* width: 10%; */
-            margin: 20px auto;
-            padding: 10px;
-            /* background-color: #fff; */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .claim-info h2 {
-            margin-bottom: 20px;
-            color: #333;
-        }
-
-        .claim-info table {
-            width: 100%;
-            line-height: 1.8;
-        }
-
-        .claim-info td {
-            padding: 5px;
-        }
-
-        .claim-info td:first-child {
-            width: 200px;
-        }
-
-        .claim-info td:nth-child(2) {
-            width: 10px;
-            text-align: center;
-        }
-
-        .claim-table {
-            margin-top: 50px;
-        }
-
-        .claim-table table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        .claim-table th,
-        .claim-table td {
-            border: 1px solid #ddd;
-            padding: 10px;
-            text-align: center;
-        }
-
-        .claim-table th {
-            background-color: #f4f4f4;
-            color: #333;
-        }
-
-        .claim-table td {
-            color: #555;
-        }
-
-        .claim-table tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-    </style>
+    <title>{{ $title }}</title>
+    <link rel="stylesheet"
+        href="{{ 'css/underwriting/tarikan-report-claim-dan-premium-per-polis-code-id/claimratio.css' }}">
 </head>
 
 <body>
@@ -130,15 +64,15 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Data 1</td>
-                        <td>Data 2</td>
-                        <td>Data 3</td>
-                        <td>Data 4</td>
-                        <td>Data 5</td>
-                        <td>Data 6</td>
-                        <td>Data 7</td>
-                        <td>Data 8</td>
-                        <td>Data 9</td>
+                        <td>1</td>
+                        <td>100</td>
+                        <td>30210</td>
+                        <td>AC-DENTAL</td>
+                        <td>IDR</td>
+                        <td>226.113.516,30</td>
+                        <td>196.115.646,00</td>
+                        <td>86,73</td>
+                        <td>NON ASO</td>
                     </tr>
                     <tr>
                         <td colspan="5">Total</td>

@@ -35,13 +35,11 @@ p:last-of-type {
 
 .content-table {
     width: 100%;
-    border-collapse: collapse;
     font-size: 12px;
 }
 
 .content-table td {
     padding: 5px;
-    border: 1px solid #000; /* Border pada tabel */
 }
 
 .left {

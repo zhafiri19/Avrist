@@ -69,8 +69,10 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="/claimratio/cetakpdf" target="_blank">Claim
                                         ratio</a></li>
-                                <li><a class="dropdown-item" href="#" target="_blank">Summary</a></li>
-                                <li><a class="dropdown-item" href="#" target="_blank">Detail Claim</a></li>
+                                <li><a class="dropdown-item" href="/summary/cetakpdf2" target="_blank">Summary</a>
+                                </li>
+                                <li><a class="dropdown-item" href="/detailclaim/cetakpdf3" target="_blank">Detail
+                                        Claim</a></li>
                             </ul>
                         </li>
                         <li class="dropdown-submenu">

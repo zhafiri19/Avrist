@@ -25,7 +25,7 @@
 
     {{-- surat pertama --}}
     <div class="transmittal-slip">
-        <table class="content-table" border="1">
+        <table class="content-table">
             <tr>
                 <td class="left">To :</td>
                 <td class="left-content">xxxxxxxx</td>
@@ -82,7 +82,7 @@
 
     {{-- isi surat kedua --}}
     <div class="transmittal-slip">
-        <table class="content-table" border="1">
+        <table class="content-table">
             <tr>
                 <td class="left">To :</td>
                 <td class="left-content">xxxxxxxx</td>

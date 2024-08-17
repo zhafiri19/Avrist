@@ -32,6 +32,8 @@ Route::get('/coverpolis1/cetakpdf', [CoverPolisController::class, 'cetakpdf']);
 Route::get('/coverpolis2/cetakpdf2', [CoverPolisController::class, 'cetakpdf2']);
 // Underwriting
 Route::get('/claimratio/cetakpdf', [UnderwritingController::class, 'cetakpdf']);
+Route::get('/summary/cetakpdf2', [UnderwritingController::class, 'cetakpdf2']);
+Route::get('/detailclaim/cetakpdf3', [UnderwritingController::class, 'cetakpdf3']);
 
 // Dokument Transmital
 Route::get('/transmitaladdress/cetakpdf', [DokumenTransmitalController::class, 'cetakpdf']);

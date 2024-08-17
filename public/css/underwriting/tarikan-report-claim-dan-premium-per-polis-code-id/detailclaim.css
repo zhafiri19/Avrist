@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.detail-claim-info h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.detail-claim-info table {
+    width: 100%;
+    line-height: 1.8;
+}
+
+.detail-claim-info td {
+    padding: 5px;
+}
+
+.detail-claim-info td:first-child {
+    width: 200px;
+}
+
+.detail-claim-info td:nth-child(2) {
+    width: 10px;
+    text-align: center;
+}
+
+.detail-claim-table {
+    margin-top: 50px;
+}
+
+.detail-claim-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.detail-claim-table th,
+.detail-claim-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.detail-claim-table th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.detail-claim-table td {
+    color: #555;
+}
+
+.detail-claim-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
