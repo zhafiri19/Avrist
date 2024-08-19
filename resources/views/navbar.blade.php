@@ -80,14 +80,19 @@
                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">Form Payment
                                 Request</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="/" target="_blank">Guidelines</a></li>
-                                <li><a class="dropdown-item" href="#" target="_blank">PR V2.1.2022</a></li>
+                                <li><a class="dropdown-item" href="/guidelines/cetakpdf4"
+                                        target="_blank">Guidelines</a></li>
+                                <li><a class="dropdown-item" href="/PRv2.1.2022/cetakpdf5" target="_blank">PR
+                                        V2.1.2022</a></li>
                             </ul>
                         </li>
-                        <li><a class="dropdown-item" href="#" target="_blank">Perhitungan Profit Sharing</a>
+                        <li><a class="dropdown-item" href="/perhitunganprofitsharing/cetakpdf6"
+                                target="_blank">Perhitungan Profit Sharing</a>
                         </li>
-                        <li><a class="dropdown-item" href="#" target="_blank">Perhitungan Stop Loss</a></li>
-                        <li><a class="dropdown-item" href="#" target="_blank">Statement of Local Loss Free atau
+                        <li><a class="dropdown-item" href="/perhitunganstoploss/cetakpdf7"
+                                target="_blank">Perhitungan Stop Loss</a></li>
+                        <li><a class="dropdown-item" href="/statementoflocallossfreeataullf/cetakpdf8"
+                                target="_blank">Statement of Local Loss Free atau
                                 LLF</a></li>
                     </ul>
                 </li>
