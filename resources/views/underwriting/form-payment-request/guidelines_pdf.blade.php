@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ $title }}</title>
     <style>
         /* Styling untuk judul GUIDELINES */
         .guidelines-title {
             font-weight: bold;
             text-transform: uppercase;
-            text-align: center;
             margin-bottom: 1em;
         }
 
@@ -24,6 +24,7 @@
             width: 100%;
             border-spacing: 0;
             margin-bottom: 1.5em;
+            margin: 20px 0;
         }
 
         .roman-numeral {
@@ -36,24 +37,72 @@
             /* Lebar kolom Romawi */
         }
 
-        .purpose-text,
+        /* Styling untuk teks di sebelah angka Romawi */
+        .sub-text,
         .description-text {
-            text-align: justify;
             padding-left: 0.5em;
+            text-align: justify;
         }
 
+        /* Styling untuk daftar a), b), c), dll. */
         .sub-list {
-            padding-left: 1.5em;
-            margin-left: 90px;
-            position: fixed;
+            padding-left: 1em;
             /* Sejajar dengan deskripsi sebelumnya */
             text-align: justify;
             margin-bottom: 1em;
         }
 
-        .sub-list li {
+        .sub-list ol {
+            margin: 0;
+            padding-left: 1em;
+        }
+
+        .sub-list ol li {
             margin-bottom: 0.5em;
             /* Jarak antar sub-poin */
+        }
+
+        /* Styling untuk daftar guidelines dengan bullet custom (-) */
+        .sub-list ul {
+            list-style-type: none;
+            /* Menghilangkan bullet default */
+            padding-left: 0;
+            margin-left: 0;
+        }
+
+        .sub-list li {
+            margin-bottom: 0.5em;
+            /* Jarak antar item list */
+            text-align: justify;
+            /* Rata kiri-kanan untuk tampilan yang rapi */
+            position: relative;
+            /* Untuk mengatur posisi bullet custom */
+            padding-left: 1.5em;
+            /* Jarak indentasi teks dari bullet */
+        }
+
+        /* Custom bullet menggunakan tanda dash (-) */
+        .sub-list li.custom-bullet::before {
+            content: "-";
+            /* Menambahkan tanda dash sebagai bullet */
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+            /* Optional: Menambah ketebalan dash */
+        }
+
+        /* Mengatur tampilan untuk teks di kiri */
+        .left-text {
+            text-align: left;
+            white-space: nowrap;
+            padding-right: 10px;
+        }
+
+        /* Mengatur tampilan untuk teks di kanan */
+        .right-text {
+            text-align: right;
+            white-space: nowrap;
+            padding-left: 10px;
         }
     </style>
 </head>
@@ -71,7 +120,7 @@
     <table border="1">
         <tr>
             <td class="roman-numeral">I.</td>
-            <td class="purpose-text">Purpose :</td>
+            <td class="sub-text">Purpose :</td>
         </tr>
         <tr>
             <td></td>
@@ -90,10 +139,10 @@
     </table>
 
     <!-- Bagian dengan angka Romawi II -->
-    <table>
+    <table border="1">
         <tr>
             <td class="roman-numeral">II.</td>
-            <td class="purpose-text">Responsibilities :</td>
+            <td class="sub-text">Responsibilities :</td>
         </tr>
         <tr>
             <td></td>
@@ -103,29 +152,35 @@
             <td></td>
             <td class="sub-list">
                 <ol type="a">
-                    <li>Ascertaining that all information stated in Payment Request are correct before submitted to
+                    <li> Ascertaining that all information stated in Payment Request are correct before submitted to
                         Finance Dept</li>
-                    <li>Ascertaining that all valid/relevant and required supporting documents have been properly
+                    <li> Ascertaining that all valid/relevant and required supporting documents have been properly
                         disclose and provided as attachment
                         to Payment Request
                     </li>
                     <li>Ascertaining that the Payment Request have been approved by authorised person according to SOP
                         General and Variable
-                        Expense Payment Request </li>
+                        Expense Payment Request</li>
                 </ol>
             </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="description-text">In the case of overbudget and non-budgeted expense or capital expenditure
+                items, Requesters are required to submit the
+                management approval over xPAB (Excess of Pre Approved Budget).</td>
         </tr>
     </table>
 
     <!-- Bagian dengan angka Romawi III -->
-    <table>
+    <table border="1">
         <tr>
             <td class="roman-numeral">III.</td>
-            <td class="purpose-text">Deliverables:</td>
+            <td class="sub-text">How to fill/use Payment Request?</td>
         </tr>
         <tr>
             <td></td>
-            <td class="description-text">The deliverables of this project include:</td>
+            <td class="description-text">Payment Request consists of several lines/rows, as follows:</td>
         </tr>
         <tr>
             <td></td>
@@ -139,35 +194,57 @@
     </table>
 
     {{-- Bagian dengan angka Romawi IV --}}
-    <table>
+    <table border="1">
         <tr>
             <td class="roman-numeral">IV.</td>
-            <td class="purpose-text">Timeline:</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td class="description-text">The timeline for the project is as follows:</td>
+            <td class="sub-text">What Should You Do?</td>
         </tr>
         <tr>
             <td></td>
             <td class="sub-list">
-                <ol type="a">
-                    <li>to complete the project by the designated deadline...</li>
-                    <li>to review all submissions before final approval...</li>
-                </ol>
+                <ul>
+                    <li class="custom-bullet">Please complete the necessary information in all cells highlighted in
+                        purple and complete the approval up to Head of Division level
+                    </li>
+                    <li class="custom-bullet">Please recheck the actual expenses and related budget of your department
+                        to your PIC Budget to ensure the availability budget
+                        to settle your payment request
+                    </li>
+                    <li class="custom-bullet"> Please ensure the consistency of request with the detailed supporting
+                        documents as required in the latest SOP General and
+                        Variable Expense Payment Request
+                    </li>
+                    <li class="custom-bullet">Please provide information to Finance & Accounting Department if there are
+                        : 1) a new vendor; 2) new expenses that is not
+                        match with the account code provided
+
+                    </li>
+                    <li class="custom-bullet"> Please read carefully the 'Terms & Condition of Disbursement Document
+                        Submission' before submit documents to Finance
+                    </li>
+                    <li class="custom-bullet">You may monitor the Payment Request and documents receipt status through
+                        Finance Daily LogBook
+                    </li>
+                </ul>
             </td>
         </tr>
     </table>
 
     {{-- Bagian dengan angka Romawi V --}}
-    <table>
+    <table border="1">
         <tr>
             <td class="roman-numeral">V.</td>
-            <td class="purpose-text">Conclusion:</td>
+            <td class="sub-text">Communication</td>
         </tr>
+        {{-- <tr>
+            <td class="left-text">For inquiries and communication, please contact</td>
+            <td class="line"></td>
+            <td class="right-text">Ext.</td>
+        </tr> --}}
         <tr>
             <td></td>
-            <td class="description-text">The conclusion of the project is as follows:</td>
+            <td class="left-text">For inquiries and communication, please contact :</td>
+            <td class="right-text">Ext.</td>
         </tr>
         <tr>
             <td></td>
