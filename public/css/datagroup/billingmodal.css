@@ -116,13 +116,11 @@ footer {
 }
 
 tfoot .footer-text {
-    text-align: center;
-    padding: 8px;
+    padding: 8px 350px;
     border-top: 1px solid black;
     /* Garis horizontal di atas */
     border-bottom: 4px double black;
-    /* Garis horizontal di bawah */
-    font-weight: bold;
+    /* Garis horizontal double di bawah */
 }
 
 tfoot .footer-details {
@@ -141,6 +139,9 @@ tfoot .footer-details {
     /* Jarak 5px ke kiri */
 }
 
+.page-break {
+    page-break-before: always;
+}
 /* Gaya khusus untuk cetak */
 @media print {
     @page {
