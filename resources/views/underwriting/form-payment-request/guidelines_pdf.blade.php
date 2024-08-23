@@ -5,106 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ $title }}</title>
-    <style>
-        /* Styling untuk judul GUIDELINES */
-        .guidelines-title {
-            font-weight: bold;
-            text-transform: uppercase;
-            margin-bottom: 1em;
-        }
-
-        /* Garis horizontal di bawah judul */
-        .horizontal-line {
-            border-top: 2px solid black;
-            margin-bottom: 1.5em;
-        }
-
-        /* Styling untuk tabel */
-        table {
-            width: 100%;
-            border-spacing: 0;
-            margin-bottom: 1.5em;
-            margin: 20px 0;
-        }
-
-        .roman-numeral {
-            font-weight: bold;
-            padding-right: 0.5em;
-            /* Jarak setelah titik */
-            white-space: nowrap;
-            vertical-align: top;
-            width: 2%;
-            /* Lebar kolom Romawi */
-        }
-
-        /* Styling untuk teks di sebelah angka Romawi */
-        .sub-text,
-        .description-text {
-            padding-left: 0.5em;
-            text-align: justify;
-        }
-
-        /* Styling untuk daftar a), b), c), dll. */
-        .sub-list {
-            padding-left: 1em;
-            /* Sejajar dengan deskripsi sebelumnya */
-            text-align: justify;
-            margin-bottom: 1em;
-        }
-
-        .sub-list ol {
-            margin: 0;
-            padding-left: 1em;
-        }
-
-        .sub-list ol li {
-            margin-bottom: 0.5em;
-            /* Jarak antar sub-poin */
-        }
-
-        /* Styling untuk daftar guidelines dengan bullet custom (-) */
-        .sub-list ul {
-            list-style-type: none;
-            /* Menghilangkan bullet default */
-            padding-left: 0;
-            margin-left: 0;
-        }
-
-        .sub-list li {
-            margin-bottom: 0.5em;
-            /* Jarak antar item list */
-            text-align: justify;
-            /* Rata kiri-kanan untuk tampilan yang rapi */
-            position: relative;
-            /* Untuk mengatur posisi bullet custom */
-            padding-left: 1.5em;
-            /* Jarak indentasi teks dari bullet */
-        }
-
-        /* Custom bullet menggunakan tanda dash (-) */
-        .sub-list li.custom-bullet::before {
-            content: "-";
-            /* Menambahkan tanda dash sebagai bullet */
-            position: absolute;
-            left: 0;
-            font-weight: bold;
-            /* Optional: Menambah ketebalan dash */
-        }
-
-        /* Mengatur tampilan untuk teks di kiri */
-        .left-text {
-            text-align: left;
-            white-space: nowrap;
-            padding-right: 10px;
-        }
-
-        /* Mengatur tampilan untuk teks di kanan */
-        .right-text {
-            text-align: right;
-            white-space: nowrap;
-            padding-left: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="{{ 'css/underwriting/form-payment-request/guidelines.css' }}">
 </head>
 
 <body>
@@ -184,6 +85,11 @@
         </tr>
         <tr>
             <td></td>
+            <td class="line-text">Line/Row 6 - 19: Header, as follows:
+            </td>
+        </tr>
+        <tr>
+            <td></td>
             <td class="sub-list">
                 <ol type="a">
                     <li>to submit all required documents...</li>
@@ -236,24 +142,34 @@
             <td class="roman-numeral">V.</td>
             <td class="sub-text">Communication</td>
         </tr>
-        {{-- <tr>
-            <td class="left-text">For inquiries and communication, please contact</td>
-            <td class="line"></td>
-            <td class="right-text">Ext.</td>
-        </tr> --}}
         <tr>
             <td></td>
-            <td class="left-text">For inquiries and communication, please contact :</td>
-            <td class="right-text">Ext.</td>
+            <td colspan="2" class="description-text">For inquiries and communication, please contact :</td>
+            <td class="underline">Ext</td>
         </tr>
         <tr>
             <td></td>
-            <td class="sub-list">
-                <ol type="a">
-                    <li>to finalize all necessary documentation...</li>
-                    <li>to sign off on all project deliverables...</li>
-                </ol>
-            </td>
+            <td class="name-text">Dwi Maryaningsih</td>
+            <td>Dwi.Maryaningsih@avrist.com</td>
+            <td>8935</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="name-text">Putri Diandini</td>
+            <td>Putri.Diandini@avrist.com</td>
+            <td>8935</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="name-text">Irma Safitri</td>
+            <td>Irma.Safitri@avrist.com</td>
+            <td>8935</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="name-text">Rizqa Liaviani Afif</td>
+            <td>Rizqa-L.Afif@avrist.com</td>
+            <td>8935</td>
         </tr>
     </table>
 </body>

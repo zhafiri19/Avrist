@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.w-full {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+img {
+    float: left;
+    margin-top: 5px;
+    width: 150px;
+}
+
+.header-text {
+    line-height: 1.5em;
+    float: right;
+    font-weight: bold;
+}
+
+.header-text br {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.container {
+    font-size: 13px;
+    text-align: justify;
+    margin-top: 70px;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+    /* Jarak 3 line height dari logo ke teks */
+}
+
+.left-info {
+    width: 48%;
+}
+
+.right-info {
+    position: absolute;
+    width: 48%;
+    float: right;
+    top: 130px;
+    font-size: 1.2em;
+}
+
+.company-name {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.company-address {
+    font-size: 1.2em;
+}
+
+.attention {
+    margin-top: 3em; /* Jarak 3 line height dari alamat perusahaan ke teks Attention */
+    font-size: 1.2em;
+}
+
+.attention strong {
+    font-weight: bold; /* Bold untuk teks Attention */
+}
+
+/* table content */
+table.double-border-top {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.double-border-top thead th {
+    padding: 8px;
+    text-align: left;
+    border-top: 4px double black;
+    /* Membuat border atas dengan dua garis */
+    border-bottom: 1px solid black;
+    /* Membuat border bawah dengan satu garis */
+}
+
+table.double-border-top tbody td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* untuk tabel sub total dan total */
+tbody .no-border td {
+    border: none;
+}
+.total-row td {
+    border-top: 2px solid black;
+    font-weight: bold;
+}
+
+table.double-border-top tfoot td {
+    padding: 10px;
+    border-top: 1px solid black;
+    font-weight: bold;
+}
+
+/* alamat */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+tfoot .footer-text {
+    text-align: center;
+    padding: 8px;
+    border-top: 1px solid black;
+    /* Garis horizontal di atas */
+    border-bottom: 4px double black;
+    /* Garis horizontal di bawah */
+    font-weight: bold;
+}
+
+tfoot .footer-details {
+    vertical-align: top;
+}
+
+.left {
+    padding-left: 5px;
+    /* Jarak 5px ke kanan */
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+    padding-right: 5px;
+    /* Jarak 5px ke kiri */
+}
+
+/* Gaya khusus untuk cetak */
+@media print {
+    @page {
+        size: A3 landscape;
+        margin: 1.5in; /* Margin halaman, sesuaikan sesuai kebutuhan */
+    }
+}

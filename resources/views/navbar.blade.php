@@ -196,7 +196,8 @@
                                 </li>
                             </ul>
                         </li>
-                        <li><a class="dropdown-item" href="#" target="_blank">Surat pengantar billing dan
+                        <li><a class="dropdown-item" href="/billingmodal/cetakpdf" target="_blank">Surat pengantar
+                                billing dan
                                 Billing modal atau
                                 alteration</a></li>
                         <li><a class="dropdown-item" href="#" target="_blank">Surat pengantar billing dan

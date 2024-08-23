@@ -5,6 +5,7 @@ use App\Http\Controllers\DokumenTransmitalController;
 use App\Http\Controllers\EndorsementController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\DataGroupController;
 use App\Http\Controllers\SuratMedicalController;
 use App\Http\Controllers\UnderwritingController;
 
@@ -49,3 +50,6 @@ Route::get('/transmitallist/cetakpdf2', [DokumenTransmitalController::class, 'ce
 
 // Endorsement
 Route::get('/endorsement/cetakpdf', [EndorsementController::class, 'cetakpdf']);
+
+// Data Group
+Route::get('/billingmodal/cetakpdf', [DataGroupController::class, 'cetakpdf']);

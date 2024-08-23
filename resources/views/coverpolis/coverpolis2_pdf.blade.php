@@ -10,7 +10,6 @@
 </head>
 
 <body>
-    <title>{{ $title }}</title>
 
     <table class="w-full">
         <tr>

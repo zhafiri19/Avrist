@@ -1,0 +1,91 @@
+/* Styling untuk judul GUIDELINES */
+.guidelines-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+/* Garis horizontal di bawah judul */
+.horizontal-line {
+    border-top: 2px solid black;
+    margin-bottom: 1.5em;
+}
+
+/* Styling untuk tabel */
+table {
+    width: 100%;
+    border-spacing: 0;
+    margin-bottom: 1.5em;
+    margin: 20px 0;
+}
+
+.roman-numeral {
+    font-weight: bold;
+    padding-right: 0.5em;
+    /* Jarak setelah titik */
+    white-space: nowrap;
+    vertical-align: top;
+    width: 2%;
+    /* Lebar kolom Romawi */
+}
+
+/* Styling untuk teks di sebelah angka Romawi */
+.sub-text,
+.description-text,
+.line-text,
+.name-text {
+    padding-left: 0.5em;
+    text-align: justify;
+}
+
+/* Styling untuk daftar a), b), c), dll. */
+.sub-list {
+    padding-left: 1em;
+    /* Sejajar dengan deskripsi sebelumnya */
+    text-align: justify;
+    margin-bottom: 1em;
+}
+
+.sub-list ol {
+    margin: 0;
+    padding-left: 1em;
+}
+
+.sub-list ol li {
+    margin-bottom: 0.5em;
+    /* Jarak antar sub-poin */
+}
+
+/* Styling untuk daftar guidelines dengan bullet custom (-) */
+.sub-list ul {
+    list-style-type: none;
+    /* Menghilangkan bullet default */
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.sub-list li {
+    margin-bottom: 0.5em;
+    /* Jarak antar item list */
+    text-align: justify;
+    /* Rata kiri-kanan untuk tampilan yang rapi */
+    position: relative;
+    /* Untuk mengatur posisi bullet custom */
+    padding-left: 0.5em;
+    /* Jarak indentasi teks dari bullet */
+}
+
+/* Custom bullet menggunakan tanda dash (-) */
+.sub-list li.custom-bullet::before {
+    content: "-";
+    /* Menambahkan tanda dash sebagai bullet */
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    /* Optional: Menambah ketebalan dash */
+}
+
+/* Styling untuk teks dengan garis bawah */
+.underline {
+    text-decoration: underline;
+}

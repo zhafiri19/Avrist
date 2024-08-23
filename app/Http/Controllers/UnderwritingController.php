@@ -45,7 +45,7 @@ class UnderwritingController extends Controller
     {
 
         $title = ["title" => "PR v2.1.2022"];
-        $pdf = PDF::loadview('underwriting.form-payment-request.PRv212022_pdf', $title);
+        $pdf = PDF::loadview('underwriting.form-payment-request.PRv212022_pdf', $title)->setPaper('A3', 'Landscape');
         return $pdf->stream('PR v2.1.2022.pdf');
     }
 
