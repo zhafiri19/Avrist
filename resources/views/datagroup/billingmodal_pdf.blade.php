@@ -81,7 +81,7 @@
         </div>
 
         {{-- table content --}}
-        <table class="double-border-top">
+        <table border="1" class="double-border-top">
             <thead>
                 <tr>
                     <th>Product</th>
@@ -99,7 +99,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>YRT LIFE</td>
+                    <td rowspan="4">YRT LIFE</td>
                     <td>IDR</td>
                     <td>001</td>
                     <td>MEM</td>
@@ -112,6 +112,45 @@
                     <td>0.00</td>
                 </tr>
 
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>0</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>3</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>002</td>
+                    <td>MEM</td>
+                    <td>0</td>
+                    <td>270,000,000</td>
+                    <td>0</td>
+                    <td>270,000,000</td>
+                    <td>2.96800</td>
+                    <td>801,360.00</td>
+                    <td>0.00</td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>0</td>
+                    <td>9</td>
+                    <td>0</td>
+                    <td>9</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
             </tbody>
             {{-- sub total dan total --}}
             <tfoot>
@@ -119,13 +158,13 @@
                 <tr>
                     <td colspan="9"style="border-top: none;"></td>
                     <td style="border-top: 1px solid black; line-height: 1; text-align: left; font-weight:bold">
-                        445,200.00</td>
+                        1,246,560.00</td>
                     <td style="border-top: 1px solid black; text-align: left; font-weight:bold">0.00</td>
                 </tr>
                 <tr>
                     <td colspan="9" style="border-top: none;"></td>
                     <td style="text-align: center;">Sub Total :</td>
-                    <td style="border-top: 1px solid black; text-align: right;">445,200.00</td>
+                    <td style="border-top: 1px solid black; text-align: right;">1,246,560.00</td>
                 </tr>
                 {{-- total --}}
                 <tr>
@@ -624,56 +663,66 @@
             <table class="double-border-top">
                 <thead>
                     <tr>
-                        <th>Product</th>
-                        <th>Curr</th>
+                        <th>Cert. No.</th>
+                        <th>Member / Dependent Name</th>
+                        <th>Adj.<br>Type</th>
+                        <th>Previous<br>BillNo.</th>
+                        <th>Effective<br>Date</th>
                         <th>Plan</th>
-                        <th>Cov</th>
-                        <th>Prev.Cov.<br>(No.of Lives)</th>
-                        <th>Addtl.Cov.<br>(No.of Lives)</th>
-                        <th>Term.Cov.<br>(No.of Lives)</th>
-                        <th>Total Cov.<br>(No.of Lives)</th>
-                        <th>Modal Rate</th>
-                        <th>Premium Due</th>
-                        <th>Premium <br>Adjustment</th>
+                        <th>Cov.</th>
+                        <th>Previous<br>Sum Assured</th>
+                        <th>New<br>Sum Assured</th>
+                        <th>No. of<br>Mths</th>
+                        <th>Adj.<br>Premium</th>
+                        <th>Adj.Premium<br>Loading</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>YRT LIFE</td>
-                        <td>IDR</td>
+                        <td colspan="4">YEARLY RENEWABLE TERM LIFE (YRT LIFE)</td>
+                        <td colspan="8">(Currency : IDR)</td>
+                    </tr>
+                    <tr>
+                        <td>0000000001</td>
+                        <td>R.H MEDY SUBIYAKTO .SE.MM</td>
+                        <td>ADD</td>
+                        <td></td>
+                        <td>Jul 11,2019</td>
                         <td>001</td>
                         <td>MEM</td>
+                        <td></td>
+                        <td>50000000</td>
                         <td>0</td>
-                        <td>150,000,000</td>
-                        <td>0</td>
-                        <td>150,000,000</td>
-                        <td>2.96800</td>
-                        <td>445,200.00</td>
                         <td>0.00</td>
+                        <td></td>
                     </tr>
 
-                </tbody>
-                {{-- sub total dan total --}}
-                <tfoot>
-                    {{-- sub total --}}
-                    <tr>
-                        <td colspan="9"style="border-top: none;"></td>
-                        <td style="border-top: 1px solid black; line-height: 1; text-align: left; font-weight:bold">
-                            445,200.00</td>
-                        <td style="border-top: 1px solid black; text-align: left; font-weight:bold">0.00</td>
-                    </tr>
-                    <tr>
-                        <td colspan="9" style="border-top: none;"></td>
-                        <td style="text-align: center;">Sub Total :</td>
-                        <td style="border-top: 1px solid black; text-align: right;">445,200.00</td>
-                    </tr>
-                    {{-- total --}}
                     <tr>
                         <td colspan="8"></td>
-                        <td colspan="2" style="text-align: center;">Total premium of all products :</td>
-                        <td style="text-align: right;">21,093,933.00</td>
+                        <td colspan="3">Product Adjustment : IDR</td>
+                        <td colspan="1">0.00</td>
                     </tr>
-                </tfoot>
+
+                    <tr>
+                        <td colspan="4">ACCIDENTAL DEATH AND DISABLEMENT (CON) (AD+D(CON))</td>
+                        <td colspan="8">(Currency : IDR)</td>
+                    </tr>
+
+                    <tr>
+                        <td>0000000001</td>
+                        <td>R.H MEDY SUBIYAKTO .SE.MM</td>
+                        <td>ADD</td>
+                        <td></td>
+                        <td>Jul 11,2019</td>
+                        <td>001</td>
+                        <td>MEM</td>
+                        <td></td>
+                        <td>50000000</td>
+                        <td>0</td>
+                        <td>0.00</td>
+                        <td></td>
+                    </tr>
+                </tbody>
             </table>
 
             <footer>
@@ -769,56 +818,63 @@
             <table class="double-border-top">
                 <thead>
                     <tr>
-                        <th>Product</th>
-                        <th>Curr</th>
+                        <th>Cert. No.</th>
+                        <th>Member / Dependent Name</th>
+                        <th>Adj.<br>Type</th>
+                        <th>Previous<br>BillNo.</th>
+                        <th>Effective<br>Date</th>
                         <th>Plan</th>
-                        <th>Cov</th>
-                        <th>Prev.Cov.<br>(No.of Lives)</th>
-                        <th>Addtl.Cov.<br>(No.of Lives)</th>
-                        <th>Term.Cov.<br>(No.of Lives)</th>
-                        <th>Total Cov.<br>(No.of Lives)</th>
-                        <th>Modal Rate</th>
-                        <th>Premium Due</th>
-                        <th>Premium <br>Adjustment</th>
+                        <th>Cov.</th>
+                        <th>Previous<br>Sum Assured</th>
+                        <th>New<br>Sum Assured</th>
+                        <th>No. of<br>Mths</th>
+                        <th>Adj.<br>Premium</th>
+                        <th>Adj.Premium<br>Loading</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>YRT LIFE</td>
-                        <td>IDR</td>
-                        <td>001</td>
+                        <td>0000000006</td>
+                        <td>YULIANA</td>
+                        <td>ADD</td>
+                        <td></td>
+                        <td>Jul 11,2019</td>
+                        <td>002</td>
                         <td>MEM</td>
+                        <td></td>
+                        <td>30000000</td>
                         <td>0</td>
-                        <td>150,000,000</td>
-                        <td>0</td>
-                        <td>150,000,000</td>
-                        <td>2.96800</td>
-                        <td>445,200.00</td>
                         <td>0.00</td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="8"></td>
+                        <td colspan="3">Product Adjustment : IDR</td>
+                        <td colspan="1">0.00</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="4">HOSPITAL AND SURGICAL (H+S)</td>
+                        <td colspan="8">(Currency : IDR)</td>
+                    </tr>
+
+                    <tr>
+                        <td>0000000001</td>
+                        <td>R.H MEDY SUBIYAKTO .SE.MM QOTRUN NADA SAVIRA TRISTAN ZULFIKAR</td>
+                        <td>ADD</td>
+                        <td></td>
+                        <td>Jul 11,2019</td>
+                        <td>005</td>
+                        <td>M+C</td>
+                        <td></td>
+                        <td></td>
+                        <td>0</td>
+                        <td>0.00</td>
+                        <td></td>
                     </tr>
 
                 </tbody>
-                {{-- sub total dan total --}}
-                <tfoot>
-                    {{-- sub total --}}
-                    <tr>
-                        <td colspan="9"style="border-top: none;"></td>
-                        <td style="border-top: 1px solid black; line-height: 1; text-align: left; font-weight:bold">
-                            445,200.00</td>
-                        <td style="border-top: 1px solid black; text-align: left; font-weight:bold">0.00</td>
-                    </tr>
-                    <tr>
-                        <td colspan="9" style="border-top: none;"></td>
-                        <td style="text-align: center;">Sub Total :</td>
-                        <td style="border-top: 1px solid black; text-align: right;">445,200.00</td>
-                    </tr>
-                    {{-- total --}}
-                    <tr>
-                        <td colspan="8"></td>
-                        <td colspan="2" style="text-align: center;">Total premium of all products :</td>
-                        <td style="text-align: right;">21,093,933.00</td>
-                    </tr>
-                </tfoot>
             </table>
 
             <footer>
@@ -832,7 +888,7 @@
                         <tr class="footer-details">
                             <td class="left">DGMD504</td>
                             <td colspan="9">R 08/21/2019</td>
-                            <td class="right">Page 1</td>
+                            <td class="right">Page 2</td>
                         </tr>
                     </tfoot>
                 </table>
@@ -914,54 +970,51 @@
             <table class="double-border-top">
                 <thead>
                     <tr>
-                        <th>Product</th>
-                        <th>Curr</th>
+                        <th>Cert. No.</th>
+                        <th>Member / Dependent Name</th>
+                        <th>Adj.<br>Type</th>
+                        <th>Previous<br>BillNo.</th>
+                        <th>Effective<br>Date</th>
                         <th>Plan</th>
-                        <th>Cov</th>
-                        <th>Prev.Cov.<br>(No.of Lives)</th>
-                        <th>Addtl.Cov.<br>(No.of Lives)</th>
-                        <th>Term.Cov.<br>(No.of Lives)</th>
-                        <th>Total Cov.<br>(No.of Lives)</th>
-                        <th>Modal Rate</th>
-                        <th>Premium Due</th>
-                        <th>Premium <br>Adjustment</th>
+                        <th>Cov.</th>
+                        <th>Previous<br>Sum Assured</th>
+                        <th>New<br>Sum Assured</th>
+                        <th>No. of<br>Mths</th>
+                        <th>Adj.<br>Premium</th>
+                        <th>Adj.Premium<br>Loading</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>YRT LIFE</td>
-                        <td>IDR</td>
-                        <td>001</td>
+                        <td>0000000010</td>
+                        <td>SUSWOYO</td>
+                        <td>ADD</td>
+                        <td></td>
+                        <td>Jul 11,2019</td>
+                        <td>010</td>
                         <td>MEM</td>
+                        <td></td>
+                        <td></td>
                         <td>0</td>
-                        <td>150,000,000</td>
-                        <td>0</td>
-                        <td>150,000,000</td>
-                        <td>2.96800</td>
-                        <td>445,200.00</td>
                         <td>0.00</td>
+                        <td></td>
                     </tr>
 
-                </tbody>
-                {{-- sub total dan total --}}
-                <tfoot>
-                    {{-- sub total --}}
-                    <tr>
-                        <td colspan="9"style="border-top: none;"></td>
-                        <td style="border-top: 1px solid black; line-height: 1; text-align: left; font-weight:bold">
-                            445,200.00</td>
-                        <td style="border-top: 1px solid black; text-align: left; font-weight:bold">0.00</td>
-                    </tr>
-                    <tr>
-                        <td colspan="9" style="border-top: none;"></td>
-                        <td style="text-align: center;">Sub Total :</td>
-                        <td style="border-top: 1px solid black; text-align: right;">445,200.00</td>
-                    </tr>
-                    {{-- total --}}
                     <tr>
                         <td colspan="8"></td>
-                        <td colspan="2" style="text-align: center;">Total premium of all products :</td>
-                        <td style="text-align: right;">21,093,933.00</td>
+                        <td colspan="3">Product Adjustment : IDR</td>
+                        <td colspan="1">0.00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="11" class="garis"></td>
+                    </tr>
+
+                    <tr class="total-row">
+                        <td colspan="7" class="garis"></td>
+                        <td colspan="3" class="total-text">TOTAL DUE : IDR</td>
+                        <td colspan="2" class="total-due">0.00</td>
                     </tr>
                 </tfoot>
             </table>
@@ -977,7 +1030,7 @@
                         <tr class="footer-details">
                             <td class="left">DGMD504</td>
                             <td colspan="9">R 08/21/2019</td>
-                            <td class="right">Page 1</td>
+                            <td class="right">Page 3</td>
                         </tr>
                     </tfoot>
                 </table>

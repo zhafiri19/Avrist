@@ -74,7 +74,7 @@ img {
 }
 
 /* table content */
-table.double-border-top {
+.double-border-top {
     width: 100%;
     border-collapse: collapse;
 }
@@ -91,6 +91,34 @@ thead th {
 tbody td {
     padding: 8px;
     text-align: left;
+}
+
+.double-border-top td[colspan="4"] {
+    font-size: 15px;
+    font-weight: bold;
+    /* Atur agar teks di kolom yang memiliki colspan 4 tetap di kiri */
+}
+
+.double-border-top td[colspan="8"] {
+    font-size: 15px;
+    font-weight: bold;
+    /* Atur agar teks di kolom yang memiliki colspan 8 tetap di kiri */
+}
+.double-border-top td[colspan="3"] {
+    text-align: center;
+    font-weight: bold;
+    /* Atur agar teks di kolom yang memiliki colspan 3 di tengah */
+}
+
+.double-border-top td[colspan="1"] {
+    text-align: left;
+    font-weight: bold;
+    /* Atur agar teks di kolom yang memiliki colspan 1 tetap di kiri */
+}
+
+.double-border-top td[rowspan="4"] {
+    vertical-align: top;
+    /* Memastikan teks di "Product" sejajar di tengah */
 }
 
 /* untuk tabel sub total dan total */
@@ -155,6 +183,7 @@ tfoot .footer-details {
 .page-break {
     page-break-before: always;
 }
+
 /* Gaya khusus untuk cetak */
 @media print {
     @page {
