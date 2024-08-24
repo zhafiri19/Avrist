@@ -241,7 +241,7 @@
                         <th>Premium <br>Adjustment</th>
                     </tr>
                 </thead>
-                <tbody>
+                {{-- <tbody>
                     <tr>
                         <td>YRT LIFE</td>
                         <td>IDR</td>
@@ -256,26 +256,17 @@
                         <td>0.00</td>
                     </tr>
 
-                </tbody>
-                {{-- sub total dan total --}}
+                </tbody> --}}
+                {{-- total --}}
                 <tfoot>
-                    {{-- sub total --}}
                     <tr>
-                        <td colspan="9"style="border-top: none;"></td>
-                        <td style="border-top: 1px solid black; line-height: 1; text-align: left; font-weight:bold">
-                            445,200.00</td>
-                        <td style="border-top: 1px solid black; text-align: left; font-weight:bold">0.00</td>
+                        <td colspan="11"></td>
                     </tr>
-                    <tr>
-                        <td colspan="9" style="border-top: none;"></td>
-                        <td style="text-align: center;">Sub Total :</td>
-                        <td style="border-top: 1px solid black; text-align: right;">445,200.00</td>
-                    </tr>
-                    {{-- total --}}
-                    <tr>
-                        <td colspan="8"></td>
-                        <td colspan="2" style="text-align: center;">Total premium of all products :</td>
-                        <td style="text-align: right;">21,093,933.00</td>
+
+                    <tr class="total-row">
+                        <td colspan="8" class="garis"></td>
+                        <td colspan="2" class="total-text">TOTAL DUE : IDR</td>
+                        <td class="total-due">21,093,933.00</td>
                     </tr>
                 </tfoot>
             </table>
@@ -291,7 +282,7 @@
                         <tr class="footer-details">
                             <td class="left">DGMD504</td>
                             <td colspan="9">R 08/21/2019</td>
-                            <td class="right">Page 1</td>
+                            <td class="right">Page 2</td>
                         </tr>
                     </tfoot>
                 </table>

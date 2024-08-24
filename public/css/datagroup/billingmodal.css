@@ -79,7 +79,7 @@ table.double-border-top {
     border-collapse: collapse;
 }
 
-table.double-border-top thead th {
+thead th {
     padding: 8px;
     text-align: left;
     border-top: 4px double black;
@@ -88,24 +88,37 @@ table.double-border-top thead th {
     /* Membuat border bawah dengan satu garis */
 }
 
-table.double-border-top tbody td {
+tbody td {
     padding: 8px;
     text-align: left;
 }
 
 /* untuk tabel sub total dan total */
-tbody .no-border td {
-    border: none;
-}
-.total-row td {
-    border-top: 2px solid black;
-    font-weight: bold;
-}
-
-table.double-border-top tfoot td {
+tfoot td {
     padding: 10px;
     border-top: 1px solid black;
-    font-weight: bold;
+    /* font-weight: bold; */
+}
+
+.total-row {
+    line-height: 10px;
+}
+
+.garis {
+    border: none;
+}
+
+.total-text {
+    text-align: center;
+    font-size: 15px;
+    border: none;
+}
+
+.total-due {
+    text-align: right;
+    border-top: 1px solid #000;
+    border-bottom: 4px double #000;
+    padding-right: 10px;
 }
 
 /* alamat */
