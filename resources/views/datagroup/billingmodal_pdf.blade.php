@@ -81,7 +81,7 @@
         </div>
 
         {{-- table content --}}
-        <table border="1" class="double-border-top">
+        <table class="double-border-top">
             <thead>
                 <tr>
                     <th>Product</th>
