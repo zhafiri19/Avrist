@@ -9,8 +9,15 @@ use Barryvdh\DomPDF\Facade\Pdf;
 
 class DataGroupController extends Controller
 {
+    // Polis Contract yang convent di group hospital 
+    public function cetakpdf6()
+    {
+        $title = ["title" => "POLICY SCHEDULE"];
+        $pdf = PDF::loadview('datagroup.poliscontract.convent.policyschedule_pdf', $title);
+        return $pdf->stream('POLICY SCHEDULE.pdf');
+    }
 
-    public function cetakpdf()
+    public function cetakpdf26()
     {
         $title = ["title" => "Surat pengantar billing dan Billing modal atau alteration"];
         $pdf = PDF::loadview('datagroup.billingmodal_pdf', $title)->setPaper('A3', 'Landscape');

@@ -147,24 +147,34 @@
                                         id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">Convent</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#" target="_blank">POLICY
+                                        <li><a class="dropdown-item" href="/policyschedule/cetakpdf6"
+                                                target="_blank">POLICY
                                                 SCHEDULE</a></li>
-                                        <li><a class="dropdown-item" href="#" target="_blank">RIDER CI</a></li>
-                                        <li><a class="dropdown-item" href="#" target="_blank">RIDER TPD</a>
+                                        <li><a class="dropdown-item" href="/riderci/cetakpdf7" target="_blank">RIDER
+                                                CI</a></li>
+                                        <li><a class="dropdown-item" href="/ridertpd/cetakpdf8" target="_blank">RIDER
+                                                TPD</a>
                                         </li>
-                                        <li><a class="dropdown-item" href="#" target="_blank">RIDER_ADD</a>
+                                        <li><a class="dropdown-item" href="/rideradd/cetakpdf9"
+                                                target="_blank">RIDER_ADD</a>
                                         </li>
-                                        <li><a class="dropdown-item" href="#" target="_blank">SUPPLEMANTARY
+                                        <li><a class="dropdown-item" href="/supplementaryop/cetakpdf10"
+                                                target="_blank">SUPPLEMENTARY
                                                 OP</a></li>
-                                        <li><a class="dropdown-item" href="#" target="_blank">SUPPLEMANTARY
+                                        <li><a class="dropdown-item" href="/supplementarydep/cetakpdf11"
+                                                target="_blank">SUPPLEMENTARY
                                                 DEP</a></li>
-                                        <li><a class="dropdown-item" href="#" target="_blank">SUPPLEMANTARY
+                                        <li><a class="dropdown-item" href="/supplementarydt/cetakpdf12"
+                                                target="_blank">SUPPLEMENTARY
                                                 DT</a></li>
-                                        <li><a class="dropdown-item" href="#" target="_blank">SUPPLEMANTARY
+                                        <li><a class="dropdown-item" href="/supplementaryjaminan/cetakpdf13"
+                                                target="_blank">SUPPLEMENTARY
                                                 JAMINAN</a></li>
-                                        <li><a class="dropdown-item" href="#" target="_blank">SUPPLEMANTARY
+                                        <li><a class="dropdown-item" href="/supplementarymt/cetakpdf14"
+                                                target="_blank">SUPPLEMENTARY
                                                 MT</a></li>
-                                        <li><a class="dropdown-item" href="#" target="_blank">SUPPLEMANTARY
+                                        <li><a class="dropdown-item" href="/supplementaryvs/cetakpdf15"
+                                                target="_blank">SUPPLEMENTARY
                                                 VS</a></li>
                                     </ul>
                                 </li>
@@ -173,37 +183,51 @@
                                         id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">Syariah</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#" target="_blank">POLICY
+                                        <li><a class="dropdown-item" href="/policyschedulesyariah/cetakpdf16"
+                                                target="_blank">POLICY
                                                 SCHEDULE_SHARIA</a></li>
-                                        <li><a class="dropdown-item" href="#" target="_blank">RIDER CI</a></li>
-                                        <li><a class="dropdown-item" href="#" target="_blank">RIDER TPD</a>
+                                        <li><a class="dropdown-item" href="/ridercisyariah/cetakpdf17"
+                                                target="_blank">RIDER
+                                                CI</a></li>
+                                        <li><a class="dropdown-item" href="/ridertpdsyariah/cetakpdf18"
+                                                target="_blank">RIDER
+                                                TPD</a>
                                         </li>
-                                        <li><a class="dropdown-item" href="#" target="_blank">RIDER_ADD</a>
+                                        <li><a class="dropdown-item" href="/rideraddsyariah/cetakpdf19"
+                                                target="_blank">RIDER_ADD</a>
                                         </li>
-                                        <li><a class="dropdown-item" href="#" target="_blank">SUPPLEMANTARY
+                                        <li><a class="dropdown-item" href="/supplementaryopsyariah/cetakpdf20"
+                                                target="_blank">SUPPLEMENTARY
                                                 OP</a></li>
-                                        <li><a class="dropdown-item" href="#" target="_blank">SUPPLEMANTARY
+                                        <li><a class="dropdown-item" href="/supplementarydepsyariah/cetakpdf21"
+                                                target="_blank">SUPPLEMENTARY
                                                 DEP</a></li>
-                                        <li><a class="dropdown-item" href="#" target="_blank">SUPPLEMANTARY
+                                        <li><a class="dropdown-item" href="/supplementarydtsyariah/cetakpdf22"
+                                                target="_blank">SUPPLEMENTARY
                                                 DT</a></li>
-                                        <li><a class="dropdown-item" href="#" target="_blank">SUPPLEMANTARY
+                                        <li><a class="dropdown-item" href="/supplementaryjaminansyariah/cetakpdf23"
+                                                target="_blank">SUPPLEMENTARY
                                                 JAMINAN</a></li>
-                                        <li><a class="dropdown-item" href="#" target="_blank">SUPPLEMANTARY
+                                        <li><a class="dropdown-item" href="/supplementarymtsyariah/cetakpdf24"
+                                                target="_blank">SUPPLEMENTARY
                                                 MT</a></li>
-                                        <li><a class="dropdown-item" href="#" target="_blank">SUPPLEMANTARY
+                                        <li><a class="dropdown-item" href="/supplementaryvssyariah/cetakpdf25"
+                                                target="_blank">SUPPLEMENTARY
                                                 VS</a></li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
-                        <li><a class="dropdown-item" href="/billingmodal/cetakpdf" target="_blank">Surat pengantar
+                        <li><a class="dropdown-item" href="/billingmodal/cetakpdf26" target="_blank">Surat pengantar
                                 billing dan
                                 Billing modal atau
                                 alteration</a></li>
-                        <li><a class="dropdown-item" href="#" target="_blank">Surat pengantar billing dan
+                        <li><a class="dropdown-item" href="/billingrenewal/cetakpdf27" target="_blank">Surat
+                                pengantar billing dan
                                 Billing Renewal</a>
                         </li>
-                        <li><a class="dropdown-item" href="#" target="_blank">Template Estimate Billing</a>
+                        <li><a class="dropdown-item" href="/estimatebilling/cetakpdf28" target="_blank">Template
+                                Estimate Billing</a>
                         </li>
                     </ul>
                 </li>
