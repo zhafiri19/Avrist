@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: table;
+    width: 100%;
+    font-size: 11px;
+}
+
+.header-left {
+    display: table-cell;
+    width: 50%;
+}
+
+.header-left p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.header-right .logo {
+    display: table-cell;
+    width: 50%;
+    max-width: 150px;
+    float: right;
+}
+
+main {
+    margin: 2em 0;
+    padding-left: 3em;
+}
+
+.letter-content {
+    max-width: 200px;
+    font-size: 12px;
+}
+
+.letter-content p,
+.main-content p {
+    margin: 0 0 1em 0;
+    word-wrap: break-word;
+}
+
+.attn,
+.dear {
+    margin-top: 2em;
+}
+
+.main-content {
+    font-size: 12px;
+}
+
+.insurance-policy {
+    max-width: none;
+    margin-top: 2em;
+    word-wrap: break-word;
+    font-weight: bold;
+}
+
+.confirmation {
+    margin-top: 2em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5em;
+}
+
+th,
+td {
+    padding: 3px;
+    text-align: left;
+    border-bottom: 1px solid #000;
+    /* Border bawah */
+    font-weight: normal;
+}
+
+td {
+    border-bottom: none;
+}
+
+.signature {
+    margin-top: 20px;
+}
+
+.your-sincerely {
+    margin-bottom: 2em;
+    /* Jarak sebelum paragraf kosong */
+}
+
+.spaced-paragraph {
+    height: 5em;
+    /* Jarak 3 spasi (paragraf) */
+}
+
+.underwriting,
+.group-service {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.cc,
+.encl {
+    margin-top: 2em;
+}
+
+.note-rel {
+    margin-top: 3em;
+    font-style: italic;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.footer-text {
+    font-size: 0.8em;
+    color: #555;
+    margin: 2em 0;
+    padding-left: 3em;
+}
