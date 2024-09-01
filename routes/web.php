@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CollectionController;
 use App\Http\Controllers\CoverPolisController;
 use App\Http\Controllers\DokumenTransmitalController;
 use App\Http\Controllers\EndorsementController;
@@ -28,6 +29,18 @@ Route::get('/', function () {
 
 // Surat Medical
 Route::get('/bloodprofileavrist/cetakpdf', [SuratMedicalController::class, 'cetakpdf']);
+Route::get('/approvalletter/cetakpdf2', [SuratMedicalController::class, 'cetakpdf2']);
+Route::get('/declineletteruntukmember/cetakpdf3', [SuratMedicalController::class, 'cetakpdf3']);
+Route::get('/declineletteruntukperusahaan/cetakpdf4', [SuratMedicalController::class, 'cetakpdf4']);
+Route::get('/followuplettermember/cetakpdf5', [SuratMedicalController::class, 'cetakpdf5']);
+Route::get('/followupletterperusahaan/cetakpdf6', [SuratMedicalController::class, 'cetakpdf6']);
+Route::get('/innitialletteruntukmember/cetakpdf7', [SuratMedicalController::class, 'cetakpdf7']);
+Route::get('/innitialletteruntukperusahaan/cetakpdf8', [SuratMedicalController::class, 'cetakpdf8']);
+Route::get('/lpkavristdewasa/cetakpdf9', [SuratMedicalController::class, 'cetakpdf9']);
+Route::get('/rateupletter/cetakpdf10', [SuratMedicalController::class, 'cetakpdf10']);
+Route::get('/suratpenghantarmedis/cetakpdf11', [SuratMedicalController::class, 'cetakpdf11']);
+Route::get('/limitletter/cetakpdf12', [SuratMedicalController::class, 'cetakpdf12']);
+Route::get('/hdfform/cetakpdf13', [SuratMedicalController::class, 'cetakpdf13']);
 
 // Cover Polis
 Route::get('/coverpolis1/cetakpdf', [CoverPolisController::class, 'cetakpdf']);
@@ -42,6 +55,11 @@ Route::get('/PRv2.1.2022/cetakpdf5', [UnderwritingController::class, 'cetakpdf5'
 Route::get('/perhitunganprofitsharing/cetakpdf6', [UnderwritingController::class, 'cetakpdf6']);
 Route::get('/perhitunganstoploss/cetakpdf7', [UnderwritingController::class, 'cetakpdf7']);
 Route::get('/statementoflocallossfreeataullf/cetakpdf8', [UnderwritingController::class, 'cetakpdf8']);
+
+Route::get('/test1/cetakpdf9', [UnderwritingController::class, 'cetakpdf9']);
+Route::get('/test2/cetakpdf10', [UnderwritingController::class, 'cetakpdf10']);
+Route::get('/test3/cetakpdf11', [UnderwritingController::class, 'cetakpdf11']);
+Route::get('/test4/cetakpdf12', [UnderwritingController::class, 'cetakpdf12']);
 
 
 // Dokument Transmital
@@ -84,3 +102,8 @@ Route::get('/supplementaryvssyariah/cetakpdf25', [DataGroupController::class, 'c
 Route::get('/billingmodal/cetakpdf26', [DataGroupController::class, 'cetakpdf26']);
 Route::get('/billingrenewal/cetakpdf27', [DataGroupController::class, 'cetakpdf27']);
 Route::get('/estimatebilling/cetakpdf28', [DataGroupController::class, 'cetakpdf28']);
+
+// Collection
+Route::get('/remindernoticebilling/cetakpdf', [CollectionController::class, 'cetakpdf']);
+Route::get('/reportageingpresentbod/cetakpdf2', [CollectionController::class, 'cetakpdf2']);
+Route::get('/summaryreportageing/cetakpdf4', [CollectionController::class, 'cetakpdf4']);

@@ -1,0 +1,218 @@
+.title {
+    text-align: center;
+    /* font-weight: bold; */
+    margin-bottom: 1em;
+}
+
+.text {
+    margin: 0;
+    line-height: 2;
+    /* Adjust line-height for spacing */
+}
+
+table {
+    margin-bottom: 1em;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    table-layout: fixed;
+    text-align: justify;
+}
+
+.label {
+    width: 25%;
+    /* Atur lebar kolom label */
+    white-space: nowrap;
+    /* Mencegah label menjadi lebih dari satu baris */
+    padding-right: 5px;
+}
+
+.colon {
+    width: 3%;
+    /* Lebar minimum agar titik dua tidak melompat ke baris baru */
+    padding-right: 10px;
+}
+
+.content {
+    word-wrap: break-word;
+    /* Membungkus teks yang panjang */
+    width: 74%;
+    /* Atur lebar kolom konten */
+}
+
+.details td {
+    padding: 5px 10px;
+    vertical-align: top;
+}
+
+.details td:first-child {
+    width: 25%;
+    padding-left: 1px;
+}
+
+.details td:last-child {
+    width: 75%;
+}
+
+.highlight-color {
+    color: red;
+}
+
+.benefit {
+    text-align: center;
+    font-weight: bold;
+    height: 50px;
+    line-height: 2.5em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.schedule {
+    text-align: center;
+    font-weight: bold;
+    height: 35px;
+}
+
+.additional-info {
+    margin-top: 8em;
+}
+
+.date-of-issue {
+    margin-bottom: 3em;
+}
+
+.signature-section {
+    margin-bottom: 0.5em;
+    /* Space before registrar and supplementary contract text */
+}
+
+.signature-img {
+    max-width: 200px;
+    /* Adjust as needed */
+}
+
+.signature-line {
+    border-top: 1px solid black;
+    width: 30%;
+    margin-top: 5em;
+}
+
+.registrar {
+    text-align: left;
+    margin-bottom: 1em;
+    /* Space before supplementary contract text */
+}
+
+.supplementary-contract {
+    text-align: left;
+    font-size: 12px;
+}
+
+/*
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+    color: #909090;
+    padding: 5px 0;
+}
+
+.footer .left {
+    float: left;
+    margin-left: 10px;
+}
+
+.footer .right {
+    float: right;
+    margin-right: 30px;
+} */
+
+/* .page-break {
+    page-break-before: always; */
+/* Memastikan elemen ini dimulai di halaman baru */
+/* } */
+
+/* ============================ batas fhn =======================================================      */
+@media print {
+    body {
+        margin: 0;
+        padding: 20px;
+    }
+}
+
+.page-break {
+    page-break-before: always;
+    /* Forces a page break before each element with the 'page' class */
+    margin-bottom: 20px;
+    /* Margin between sections when printing */
+}
+
+.container {
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.column {
+    display: table-cell;
+    width: 50%;
+    padding: 10px;
+    text-align: justify;
+}
+
+.kiri {
+    display: table-cell;
+    width: 50%;
+    padding: 10px;
+    text-align: justify;
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 100vh;
+    /* page-break-inside: avoid; */
+}
+
+.kanan {
+    display: table-cell;
+    width: 50%;
+    padding: 7px;
+    text-align: justify;
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 100vh;
+}
+
+h5 {
+    text-align: center;
+    /* Judul berada di tengah */
+    /* font-size: 12pt; */
+    margin-top: 0;
+    margin-bottom: 10px;
+    /* text-transform: uppercase; */
+}
+
+p {
+    margin: 0 0 10px 0;
+    font-size: 11pt;
+    /* page-break-inside: avoid; */
+}
+
+ol {
+    padding-left: 1.3em;
+}
+
+.indented-list {
+    margin-left: 10px;
+    /* Adjust the entire list */
+    padding-left: 10px;
+    /* Control the space before the bullet */
+}
+
+.indented-list li {
+    margin-left: 20px;
+    /* Control the indentation of each item */
+    text-indent: -5px;
+    /* Make the text align with the bullet */
+    padding-left: 5px;
+    /* Align the bullet correctly */
+}
