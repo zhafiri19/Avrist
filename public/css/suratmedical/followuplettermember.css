@@ -20,10 +20,6 @@ header {
     line-height: 1.5;
 }
 
-.website {
-    padding-top: 25px;
-}
-
 .header-right .logo {
     display: table-cell;
     width: 50%;
@@ -47,7 +43,6 @@ main {
     word-wrap: break-word;
 }
 
-.attn,
 .dear {
     margin-top: 2em;
 }
@@ -75,12 +70,11 @@ table {
 
 th,
 td {
-    padding-right: 5px;
+    padding: 3px;
     text-align: left;
     border-bottom: 1px solid #000;
     /* Border bawah */
     font-weight: normal;
-    word-wrap: break-word;
 }
 
 td {
@@ -98,7 +92,7 @@ td {
 
 .spaced-paragraph {
     height: 5em;
-    /* Jarak 3 spasi (paragraf) */
+    /* Jarak 5 spasi (paragraf) */
 }
 
 .underwriting,
@@ -107,12 +101,13 @@ td {
     margin-bottom: 0.5em;
 }
 
-.cc {
-    margin-top: 3em;
+.cc,
+.encl {
+    margin-top: 2em;
 }
 
 .note-rel {
-    margin-top: 5em;
+    margin-top: 3em;
     font-style: italic;
 }
 

@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 0;
+    padding: 1px;
+    margin-bottom: 0;
+}
+
+.container {
+    padding: 10px;
+    margin: 0 auto;
+}
+
+header {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
+    padding-bottom: 0;
+}
+
+header h1 {
+    /* font-size: 10pt; */
+}
+
+.details {
+    margin-bottom: 1px;
+}
+
+.details h2 {
+    font-size: 10pt;
+    color: #fbfeff;
+    background-color: #945fb3;
+    padding: 8px;
+    line-height: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    /* margin-bottom: 5px; */
+    padding-bottom: 0;
+}
+
+table,
+th,
+td {
+    border: 1px solid #7a7575;
+}
+
+th,
+td {
+    padding: 5px;
+    font-weight: normal;
+    font-size: 10px;
+    text-align: right;
+    border: 1px solid #272323;
+}
+
+th {
+    text-align: center;
+}
+
+.striped-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+.striped-table th,
+.striped-table td {
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: right;
+}
+
+.striped-table th {
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: center;
+}
+
+.striped-table tr:nth-child(even) {
+    background-color: rgb(216, 216, 216);
+    /* Warna latar belakang untuk baris genap */
+}
+
+.striped-table tr:nth-child(odd) {
+    background-color: white;
+    /* Warna latar belakang untuk baris ganjil */
+}
+
+tfoot td {
+    padding: 5px;
+    /* text-align: left; */
+    font-weight: normal;
+    font-size: 10px;
+    text-align: right;
+    border: none;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    /* border-top: 2px solid #eaeaea; */
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+}
+
+.header1 {
+    font-size: 16px;
+    margin-left: 140px;
+}
+
+.header2 {
+    margin-left: 170px;
+    font-size: 10px;
+}
+
+.header3 {
+    margin-left: 90px;
+    font-size: 10px;
+}

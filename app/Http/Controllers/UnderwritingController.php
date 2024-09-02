@@ -77,7 +77,7 @@ class UnderwritingController extends Controller
     public function cetakpdf9()
     {
         $title = ["title" => "Test 1"];
-        $pdf = PDF::loadview('uji.test1', $title);
+        $pdf = PDF::loadview('uji.test1', $title)->setPaper('A3', 'portrait');
         return $pdf->stream('Test 1.pdf');
     }
 

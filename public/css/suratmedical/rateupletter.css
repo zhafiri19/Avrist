@@ -20,10 +20,6 @@ header {
     line-height: 1.5;
 }
 
-.website {
-    padding-top: 25px;
-}
-
 .header-right .logo {
     display: table-cell;
     width: 50%;
@@ -47,7 +43,6 @@ main {
     word-wrap: break-word;
 }
 
-.attn,
 .dear {
     margin-top: 2em;
 }
@@ -56,15 +51,11 @@ main {
     font-size: 12px;
 }
 
-.insurance-policy {
+.re-policynumber {
     max-width: none;
     margin-top: 2em;
     word-wrap: break-word;
     font-weight: bold;
-}
-
-.confirmation {
-    margin-top: 2em;
 }
 
 table {
@@ -75,7 +66,7 @@ table {
 
 th,
 td {
-    padding-right: 5px;
+    padding: 3px 10px 3px 0;
     text-align: left;
     border-bottom: 1px solid #000;
     /* Border bawah */
@@ -88,32 +79,47 @@ td {
 }
 
 .signature {
-    margin-top: 20px;
+    margin-top: 1.5em;
+    display: table;
+    width: 100%;
 }
 
-.your-sincerely {
+.column {
+    display: table-cell;
+    width: 50%;
+    padding: 10px 0;
+}
+
+.company-name {
     margin-bottom: 2em;
-    /* Jarak sebelum paragraf kosong */
+    margin-right: 20px;
 }
 
-.spaced-paragraph {
-    height: 5em;
-    /* Jarak 3 spasi (paragraf) */
-}
-
-.underwriting,
-.group-service {
-    margin-top: 0;
+.signature-section {
     margin-bottom: 0.5em;
+    /* Space before registrar and supplementary contract text */
+}
+
+.signature-img {
+    max-width: 200px;
+    /* Adjust as needed */
+}
+
+.signature-line {
+    border-top: 1px solid black;
+    width: 70%;
+    margin-top: 5em;
+    /* margin-top: 1em; */
+}
+
+.name-date p {
+    text-align: left;
+    margin-top: 0.3em;
+    /* Space before supplementary contract text */
 }
 
 .cc {
-    margin-top: 3em;
-}
-
-.note-rel {
-    margin-top: 5em;
-    font-style: italic;
+    margin-top: 2em;
 }
 
 footer {
@@ -127,4 +133,8 @@ footer {
     color: #555;
     margin: 2em 0;
     padding-left: 3em;
+}
+
+.page-break {
+    page-break-after: always; /* Memastikan elemen setelah ini akan dimulai di halaman baru */
 }

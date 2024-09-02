@@ -46,10 +46,10 @@
                     <li><a class="dropdown-item" href="/followupletterperusahaan/cetakpdf6" target="_blank">Follow UP
                             Letter Perusahaan</a></li>
                     <li><a class="dropdown-item" href="/innitialletteruntukmember/cetakpdf7" target="_blank">Innitial
-                            Letter Untuk Perusahaan</a>
+                            Letter Untuk Member</a>
                     </li>
                     <li><a class="dropdown-item" href="/innitialletteruntukperusahaan/cetakpdf8"
-                            target="_blank">Innitial Letter Untuk Member</a>
+                            target="_blank">Innitial Letter Untuk Perusahaan</a>
                     </li>
                     <li><a class="dropdown-item" href="/lpkavristdewasa/cetakpdf9" target="_blank">LPK Avrist Dewasa</a>
                     </li>

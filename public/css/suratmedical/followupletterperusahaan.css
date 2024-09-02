@@ -63,10 +63,6 @@ main {
     font-weight: bold;
 }
 
-.confirmation {
-    margin-top: 2em;
-}
-
 table {
     width: 100%;
     border-collapse: collapse;
@@ -75,7 +71,7 @@ table {
 
 th,
 td {
-    padding-right: 5px;
+    padding-right: 10px;
     text-align: left;
     border-bottom: 1px solid #000;
     /* Border bawah */
@@ -107,12 +103,13 @@ td {
     margin-bottom: 0.5em;
 }
 
-.cc {
-    margin-top: 3em;
+.cc,
+.encl {
+    margin-top: 2em;
 }
 
 .note-rel {
-    margin-top: 5em;
+    margin-top: 3em;
     font-style: italic;
 }
 

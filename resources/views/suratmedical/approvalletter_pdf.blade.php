@@ -29,13 +29,9 @@
         <div class="letter-content">
             <p class="date">May 04, 2023</p>
             <p class="company-name">Nama Perusahaan</p>
-            <p class="address">PT. MARSH INDONESIA
-                WTC 3 LEVEL 16
-                Jl. JEND. SUDIRMAN KAV.29
-                KUNINGAN, JAKARTA SELATAN
-                DKI JAKARTA
+            <p class="address">Alamat Perusahaan
             </p>
-            <p class="attn">Attn: MS. JANEY STEFANIE</p>
+            <p class="attn">Attn: PIC</p>
         </div>
         <div class="main-content">
             <p class="dear">Dear Policyholder,</p>

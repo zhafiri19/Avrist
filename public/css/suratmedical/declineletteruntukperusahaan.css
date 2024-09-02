@@ -59,10 +59,6 @@ main {
     font-weight: bold;
 }
 
-.confirmation {
-    margin-top: 2em;
-}
-
 table {
     width: 100%;
     border-collapse: collapse;
@@ -71,11 +67,12 @@ table {
 
 th,
 td {
-    padding: 3px;
+    padding: 3px 10px 3px 0;
     text-align: left;
     border-bottom: 1px solid #000;
     /* Border bawah */
     font-weight: normal;
+    word-wrap: break-word;
 }
 
 td {
@@ -93,7 +90,7 @@ td {
 
 .spaced-paragraph {
     height: 5em;
-    /* Jarak 3 spasi (paragraf) */
+    /* Jarak 5 spasi (paragraf) */
 }
 
 .underwriting,
