@@ -72,33 +72,4 @@ class UnderwritingController extends Controller
         $pdf = PDF::loadview('underwriting.form-payment-request.statementoflocallossfreeataullf_pdf', $title);
         return $pdf->stream('Statement of Local Loss Free atau LLF.pdf');
     }
-
-
-    public function cetakpdf9()
-    {
-        $title = ["title" => "Test 1"];
-        $pdf = PDF::loadview('uji.test1', $title)->setPaper('A3', 'portrait');
-        return $pdf->stream('Test 1.pdf');
-    }
-
-    public function cetakpdf10()
-    {
-        // $title = ["title" => "Test 2"];
-        $pdf = PDF::loadView('uji.test2')->setPaper('letter', 'portrait');
-        return $pdf->stream('Test 1.pdf');
-    }
-
-
-    public function cetakpdf11()
-    {
-        $title = ["title" => "Test 3"];
-        $pdf = PDF::loadView('uji.test3', $title);
-        return $pdf->stream('Test 3.pdf');
-    }
-    public function cetakpdf12()
-    {
-        $title = ["title" => "Test 4"];
-        $pdf = PDF::loadView('uji.test4', $title);
-        return $pdf->stream('Test 4.pdf');
-    }
 }

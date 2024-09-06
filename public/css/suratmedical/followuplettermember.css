@@ -58,8 +58,8 @@ main {
     font-weight: bold;
 }
 
-.confirmation {
-    margin-top: 2em;
+ul {
+    padding-left: 10px;
 }
 
 table {
@@ -70,7 +70,7 @@ table {
 
 th,
 td {
-    padding: 3px;
+    padding: 3px 10px 3px 0;
     text-align: left;
     border-bottom: 1px solid #000;
     /* Border bawah */
@@ -101,14 +101,49 @@ td {
     margin-bottom: 0.5em;
 }
 
-.cc,
 .encl {
     margin-top: 2em;
 }
 
-.note-rel {
-    margin-top: 3em;
+.notes {
+    text-decoration: underline;
+    margin-bottom: 10px; /* Jarak antara teks dan bullet list */
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the ordered list */
+.custom-format {
+    list-style: none;
+    /* Remove default numbering */
+    counter-reset: list-counter;
+    /* Initialize a counter */
+    /* margin-left: 0.3em; */
+    /* Indentation for the list */
+}
+
+/* Style for list items */
+.custom-format li {
+    position: relative;
+    margin-bottom: 1.3em;
+    /* Space between items */
+    padding-left: 2.5em;
+    /* Space for the custom number */
     font-style: italic;
+}
+
+.custom-format li::before {
+    content: "(" counter(list-counter) ") ";
+    /* Custom format (1), (2), etc. */
+    counter-increment: list-counter;
+    /* Increment the counter */
+    position: absolute;
+    left: 0;
+    /* Position it to the left */
+    top: 0;
 }
 
 footer {

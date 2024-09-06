@@ -1,0 +1,258 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+/* Logo on the right */
+.logo {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.logo-img {
+    width: 100px;
+    height: auto;
+}
+
+/* Invoice text centered */
+.invoice-text {
+    text-align: center;
+    flex-grow: 2;
+}
+
+.invoice-text h2 {
+    margin: 0;
+}
+
+.invoice-text p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Details Section */
+.details {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.issue-date,
+.attention,
+.invoice-details,
+.periode,
+.benefit {
+    margin-bottom: 10px;
+}
+
+.issue-date p,
+.attention p,
+.invoice-details p,
+.periode p,
+.benefit p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Clear floats */
+.details::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+/* Notes Section */
+.notes-section {
+    font-family: Arial, sans-serif;
+}
+
+/* Notes Title (bold and underlined) */
+.notes-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/* Bullet List */
+.bullet-list {
+    list-style-type: disc;
+    /* Default bullet style */
+    margin-left: 20px;
+    /* Indent list items */
+    padding-left: 0;
+    /* Remove default padding */
+}
+
+.bullet-list li {
+    margin-bottom: 5px;
+    /* Space between list items */
+}
+
+/* Container for the text box */
+.text-box {
+    width: 500px;
+    /* Width of the box */
+    padding: 20px;
+    /* Padding inside the box */
+    border: 1px solid #ddd;
+    /* Border around the box */
+    border-radius: 5px;
+    /* Rounded corners */
+    text-align: center;
+    /* Center text horizontally */
+    margin: 20px auto;
+    /* Center the box horizontally */
+    background-color: #f9f9f9;
+    /* Background color */
+}
+
+/* Style for each text line */
+.text-line {
+    margin: 0;
+    /* Remove default margin */
+    padding: 5px 0;
+    /* Vertical padding for spacing */
+}
+
+/* Extra margin for line 1 to line 2 */
+.line1 {
+    margin-bottom: 1.5em;
+    /* Distance between baris 1 and baris 2 */
+}
+
+.line2 {
+    font-weight: bold;
+}
+
+/* Signature */
+/* Space before supplementary contract text */
+.signature-section {
+    width: 300px;
+    /* Width of the signature block */
+    margin: 20px;
+    /* Margin around the signature block */
+    text-align: left;
+    /* Align text to the left */
+}
+
+/* Signature Section */
+.signature-section {
+    width: 300px;
+    /* Width of the signature block */
+    margin: 20px;
+    /* Margin around the signature block */
+    text-align: left;
+    /* Align text to the left */
+}
+
+/* Text "Your Sincerely" */
+.yours-sincerely {
+    margin-bottom: 5em;
+    /* Distance between "Your Sincerely" and the name */
+    font-size: 16px;
+    /* Font size */
+}
+
+/* Name */
+.name {
+    margin-bottom: 0.2em;
+    /* Small space below the name */
+    font-size: 18px;
+    /* Font size */
+    font-weight: bold;
+}
+
+/* Signature Line */
+.signature-line {
+    border-top: 1px solid black;
+    /* Line color and thickness */
+    width: 100%;
+    /* Ensure the line extends the full width of the container */
+    margin-bottom: 0.2em;
+    /* Small space below the line */
+}
+
+/* CTO Text */
+.coo {
+    margin-bottom: 0;
+    /* No space between CTO and company text */
+    font-size: 16px;
+    /* Font size */
+}
+
+/* Company Text */
+.company {
+    font-size: 14px;
+    /* Font size */
+    color: gray;
+    /* Color for company text */
+    margin-top: 0;
+    /* No space above the company text */
+}
+
+/* footer */
+footer {
+    display: table;
+    width: 100%;
+    font-size: 11px;
+    position: absolute;
+    bottom: 50px;
+}
+
+.footer-left {
+    display: table-cell;
+    width: 50%;
+}
+
+.footer-left p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.footer-right .logo {
+    display: table-cell;
+    width: 50%;
+    max-width: 150px;
+    float: right;
+}
+
+/* page break */
+.page-break {
+    page-break-before: always;
+}

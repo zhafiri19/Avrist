@@ -27,7 +27,7 @@
 
     <main>
         <div class="letter-content">
-            <p class="date">June 6, 2023</p>
+            <p class="date">May 30, 2023</p>
             <p class="company-name">Nama tertanggung</p>
             <p class="address">Alamat Perusahaan
             </p>
@@ -38,12 +38,20 @@
             <p class="insurance-policy">GROUP LIFE INSURANCE POLICY NO. GL- No Polis
                 <br>TO ATTEND ADDITIONAL MEDICAL TESTS AND/OR FURNISH ADDITIONAL INFORMATION
             </p>
-            <p class="confirmation">Having reviewed the underwriting documents received (be it completed health
+            <p>Having reviewed the underwriting documents received (be it completed health
                 declaration form/medical reports and results from our panel doctors/ medical reports from your own
                 doctor/additional information furnished), we would like to invite you to attend to the following within
                 Four (4) Weeks from the date of this letter before full coverage can be considered.</p>
             <p>You are kindly requested to furnish the following information for our review. Please send the information
                 to the undersigned directly</p>
+
+            <ul>
+                <li>Tipe Medical / Free text kekurangan pending</li>
+            </ul>
+
+            <p>Our acceptance of your full coverage will be subject to the results of the above requirements. In the
+                meantime, you are covered at :</p>
+
             <table>
                 <thead>
                     <tr>
@@ -52,26 +60,24 @@
                         <th>Name of Member / Dependant</th>
                         <th>REL</th>
                         <th>Coverage</th>
-                        <th>No-Evidence Limit/ <br>Current Amt of Insurance</th>
+                        <th></th>
+                        <th>Current Amt of Insurance</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td colspan="6">I MADE SUARTHA</td>
-                    </tr>
-                    <tr>
                         <td>0000002131</td>
-                        <td>0201600975</td>
-                        <td>I MADE SUARTHA</td>
+                        <td>0000120103</td>
+                        <td>MULYONO</td>
                         <td>M</td>
                         <td>YRT LIFE</td>
-                        <td>IDR 250,000,000</td>
+                        <td>IDR</td>
+                        <td>250,000,000</td>
                     </tr>
                 </tbody>
             </table>
 
-            <p class="note">Please forward the enclosed letter to the member for this/her necessary reference</p>
-            <p class="enquiry">Should you have any enquiry, please feel free to contact the undersigned at Tel :
+            <p>Should you have any enquiry, please feel free to contact the undersigned at Tel :
                 57898188 E.8501.</p>
 
             <div class="signature">
@@ -81,22 +87,25 @@
                 <p class="group-services">Group Service Department</p>
             </div>
 
-            <div class="cc">
-                <p>cc.</p>
-            </div>
-
             <div class="encl">
                 <p>Encl</p>
             </div>
 
-            <div class="note-rel">
-                <p>Note: REL : Relationship; M: Member</p>
-            </div>
+            <div class="notes">Notes:</div>
+
+            <ol class="custom-format">
+                <li>The above medical exam/tests are required for the sole purpose of underwriting your group insurance
+                    application. Medical information and result furnished by the medical providers are to be kept
+                    confidential and will not be released</li>
+                <li>For female applicant, please do not attend to the medical exam / urine test during menstruating /
+                    pregnant preiod</li>
+            </ol>
+            <div class="note">Note: REL: Relationship; M:Member</div>
         </div>
     </main>
 
     <footer>
-        <p class="footer-text">DC01</p>
+        <p class="footer-text">FM03</p>
     </footer>
 
 </body>

@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.w-full {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+img {
+    float: left;
+    margin-top: 5px;
+    width: 150px;
+}
+
+.header-text {
+    line-height: 1.5em;
+    float: right;
+    font-weight: bold;
+}
+
+.header-text br {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.container {
+    font-size: 13px;
+    text-align: justify;
+    margin-top: 70px;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+    /* Jarak 3 line height dari logo ke teks */
+}
+
+.left-info {
+    width: 48%;
+}
+
+.right-info {
+    position: absolute;
+    width: 48%;
+    float: right;
+    top: 130px;
+    font-size: 1.2em;
+}
+
+.company-name {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.company-address {
+    font-size: 1.2em;
+}
+
+.attention {
+    margin-top: 3em; /* Jarak 3 line height dari alamat perusahaan ke teks Attention */
+    font-size: 1.2em;
+}
+
+.attention strong {
+    font-weight: bold; /* Bold untuk teks Attention */
+}
+
+/* table content */
+.double-border-top {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+th {
+    border-top: 4px double black;
+    border-bottom: 1px solid black;
+}
+
+.details {
+    text-align: left;
+    width: 85%;
+    /* Kolom kiri lebih lebar */
+}
+
+.amount {
+    text-align: right;
+    width: 15%;
+    /* Kolom kanan lebih sempit */
+}
+
+tfoot td {
+    padding: 10px;
+    border-top: 1px solid black;
+    /* font-weight: bold; */
+}
+
+.total-row,
+.total-text {
+    text-align: right;
+    font-size: 15px;
+    border: none;
+}
+
+.total-due {
+    text-align: right;
+    border-top: 1px solid #000;
+    border-bottom: 4px double #000;
+    padding-right: 10px;
+}
+
+.spacer {
+    height: 150px;
+    /* Jarak 5 baris kosong, asumsi tinggi baris 10px */
+}
+
+/* alamat */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+tfoot .footer-text {
+    text-align: left;
+    border-top: 1px solid black;
+    /* Garis horizontal di atas */
+    border-bottom: 4px double black;
+    /* Garis horizontal double di bawah */
+}
+
+tfoot .footer-details {
+    vertical-align: top;
+}
+
+.left {
+    padding-left: 5px;
+    /* Jarak 5px ke kanan */
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+    padding-right: 5px;
+    /* Jarak 5px ke kiri */
+}
+
+.page-break {
+    page-break-before: always;
+}
+
+/* Gaya khusus untuk cetak */
+@media print {
+    @page {
+        size: A3 landscape;
+        margin: 1.5in; /* Margin halaman, sesuaikan sesuai kebutuhan */
+    }
+}

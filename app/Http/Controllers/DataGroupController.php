@@ -12,34 +12,38 @@ class DataGroupController extends Controller
     // ASO Billing
     public function cetakpdf()
     {
-        $title = ["title" => "POLICY SCHEDULE"];
-        $pdf = PDF::loadview('datagroup.poliscontract.convent.policyschedule_pdf', $title);
-        return $pdf->stream('POLICY SCHEDULE.pdf');
+        $title = ["title" => "ASO DEPOSIT AWAL_0000093795_100_A000000111"];
+        $pdf = PDF::loadview('datagroup.asobilling.asodepositawal_pdf', $title)->setPaper('A3', 'Landscape');
+        return $pdf->stream('ASO DEPOSIT AWAL_0000093795_100_A000000111.pdf');
     }
     public function cetakpdf2()
     {
-        $title = ["title" => "POLICY SCHEDULE"];
-        $pdf = PDF::loadview('datagroup.poliscontract.convent.policyschedule_pdf', $title);
-        return $pdf->stream('POLICY SCHEDULE.pdf');
+        $title = ["title" => "ASO FEE ALTERATION_93865  AMERTA INDAH OTSUKA, PT"];
+        $pdf = PDF::loadview('datagroup.asobilling.asofeealteration_pdf', $title)->setPaper('A3', 'Landscape');
+        return $pdf->stream('ASO FEE ALTERATION_93865  AMERTA INDAH OTSUKA, PT.pdf');
     }
     public function cetakpdf3()
     {
-        $title = ["title" => "POLICY SCHEDULE"];
-        $pdf = PDF::loadview('datagroup.poliscontract.convent.policyschedule_pdf', $title);
-        return $pdf->stream('POLICY SCHEDULE.pdf');
+        $title = ["title" => "ASO FEE AWAL 93795 ASET DIGITAL BERKAT"];
+        $pdf = PDF::loadview('datagroup.asobilling.asofeeawal_pdf', $title);
+        return $pdf->stream('ASO FEE AWAL 93795 ASET DIGITAL BERKAT.pdf');
     }
     public function cetakpdf4()
     {
-        $title = ["title" => "POLICY SCHEDULE"];
-        $pdf = PDF::loadview('datagroup.poliscontract.convent.policyschedule_pdf', $title);
-        return $pdf->stream('POLICY SCHEDULE.pdf');
+        $title = ["title" => "ASO PEMAKAIAN_0000093649_100_A000000107"];
+        $pdf = PDF::loadview('datagroup.asobilling.asopemakaian_pdf', $title)->setPaper('A3', 'Landscape');
+        return $pdf->stream('ASO PEMAKAIAN_0000093649_100_A000000107.pdf');
     }
-    public function cetakpdf5()
-    {
-        $title = ["title" => "POLICY SCHEDULE"];
-        $pdf = PDF::loadview('datagroup.poliscontract.convent.policyschedule_pdf', $title);
-        return $pdf->stream('POLICY SCHEDULE.pdf');
-    }
+
+    // tidak perlu karena bentuk excel
+    // public function cetakpdf5()
+    // {
+    //     $title = ["title" => "POLICY SCHEDULE"];
+    //     $pdf = PDF::loadview('datagroup.poliscontract.convent.policyschedule_pdf', $title);
+    //     return $pdf->stream('POLICY SCHEDULE.pdf');
+    // }
+    // ============================================================================================================
+
 
     // Polis Contract yang convent di group hospital
     public function cetakpdf6()
@@ -174,14 +178,14 @@ class DataGroupController extends Controller
     }
     public function cetakpdf27()
     {
-        $title = ["title" => "Surat pengantar billing dan Billing modal atau alteration"];
-        $pdf = PDF::loadview('datagroup.billingmodal_pdf', $title)->setPaper('A3', 'Landscape');
-        return $pdf->stream('Surat pengantar billing dan Billing modal atau alteration.pdf');
+        $title = ["title" => "Surat pengantar billing dan Billing Renewal"];
+        $pdf = PDF::loadview('datagroup.billingrenewal_pdf', $title)->setPaper('A3', 'Landscape');
+        return $pdf->stream('Surat pengantar billing dan Billing Renewal.pdf');
     }
     public function cetakpdf28()
     {
-        $title = ["title" => "Surat pengantar billing dan Billing modal atau alteration"];
-        $pdf = PDF::loadview('datagroup.billingmodal_pdf', $title)->setPaper('A3', 'Landscape');
-        return $pdf->stream('Surat pengantar billing dan Billing modal atau alteration.pdf');
+        $title = ["title" => "Template Estimate Billing"];
+        $pdf = PDF::loadview('datagroup.estimatebilling_pdf', $title)->setPaper('A3', 'Landscape');
+        return $pdf->stream('Template Estimate Billing.pdf');
     }
 }

@@ -56,12 +56,6 @@ Route::get('/perhitunganprofitsharing/cetakpdf6', [UnderwritingController::class
 Route::get('/perhitunganstoploss/cetakpdf7', [UnderwritingController::class, 'cetakpdf7']);
 Route::get('/statementoflocallossfreeataullf/cetakpdf8', [UnderwritingController::class, 'cetakpdf8']);
 
-Route::get('/test1/cetakpdf9', [UnderwritingController::class, 'cetakpdf9']);
-Route::get('/test2/cetakpdf10', [UnderwritingController::class, 'cetakpdf10']);
-Route::get('/test3/cetakpdf11', [UnderwritingController::class, 'cetakpdf11']);
-Route::get('/test4/cetakpdf12', [UnderwritingController::class, 'cetakpdf12']);
-
-
 // Dokument Transmital
 Route::get('/transmitaladdress/cetakpdf', [DokumenTransmitalController::class, 'cetakpdf']);
 Route::get('/transmitallist/cetakpdf2', [DokumenTransmitalController::class, 'cetakpdf2']);
@@ -71,11 +65,11 @@ Route::get('/endorsement/cetakpdf', [EndorsementController::class, 'cetakpdf']);
 
 // Data Group
 // Aso Billing
-Route::get('/[name]/cetakpdf', [DataGroupController::class, 'cetakpdf']);
-Route::get('/[name]/cetakpdf2', [DataGroupController::class, 'cetakpdf2']);
-Route::get('/[name]/cetakpdf3', [DataGroupController::class, 'cetakpdf3']);
-Route::get('/[name]/cetakpdf4', [DataGroupController::class, 'cetakpdf4']);
-Route::get('/[name]/cetakpdf5', [DataGroupController::class, 'cetakpdf5']);
+Route::get('/asodepositawal/cetakpdf', [DataGroupController::class, 'cetakpdf']);
+Route::get('/asofeealteration/cetakpdf2', [DataGroupController::class, 'cetakpdf2']);
+Route::get('/asofeeawal/cetakpdf3', [DataGroupController::class, 'cetakpdf3']);
+Route::get('/asopemakaian/cetakpdf4', [DataGroupController::class, 'cetakpdf4']);
+// Route::get('/[name]/cetakpdf5', [DataGroupController::class, 'cetakpdf5']); //tidak perlu karena excel
 // Polis Contract yang convent di group hospital
 Route::get('/policyschedule/cetakpdf6', [DataGroupController::class, 'cetakpdf6']);
 Route::get('/riderci/cetakpdf7', [DataGroupController::class, 'cetakpdf7']);
