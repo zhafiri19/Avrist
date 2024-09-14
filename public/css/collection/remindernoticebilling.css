@@ -5,112 +5,156 @@ body {
     margin-top: 0;
 }
 
-header {
-    /* display: flex; */
-    /* justify-content: space-between; */
-    align-items: center;
-    margin-bottom: 5px;
-    /* border-bottom: 2px solid #eaeaea; */
-    padding-bottom: 5px;
+.header {
+    position: relative;
+    padding: 20px;
 }
 
-header h1 {
-    font-size: 20px;
-    margin: 0;
-    padding-bottom: 15px;
+.header-text {
     text-align: center;
 }
 
-header h2 {
-    font-size: 16px;
+.indonesian-header {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
     margin: 0;
-    padding-bottom: 5px;
-    text-align: center;
-    line-height: 1px;
+}
+
+.english-header {
+    font-size: 18px;
+    margin: 5px 0 0;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.header-logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.header-logo img {
+    width: 100px;
+    height: auto;
 }
 
 .billing-info {
-    font-size: 12px;
-    padding: 8px;
-    line-height: 5px;
+    padding: 10px 0;
+    word-break: break-word;
+    width: 250px;
 }
 
-/* ------------------------Gaya untuk Table 3 kolom -------------------------------------*/
-#table3 {
-    font-family: "Times New Roman", Times, serif;
+.indonesia {
+    text-decoration: underline;
+}
+
+/* Tidak ada underline jika berada di dalam li */
+li div.indonesia {
+    text-decoration: none;
+}
+
+.inggris {
+    font-style: italic;
+}
+
+.colon {
+    margin-left: 20px;
+    position: relative;
+    top: 0.3em;
+    /* Menyesuaikan posisi titik dua agar berada di tengah garis bawah */
+}
+
+.date {
+    margin-left: 10px;
+    position: relative;
+    top: 0.3em;
+    font-weight: bold;
+}
+
+/* ======================================================= Tabel 1 dan 2 ============================================================== */
+table.table1-2 {
     width: 100%;
     border-collapse: collapse;
-    border: 1px solid #000;
-    font-size: 11px;
-    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-#table3 th,
-#table3 td {
-    border: 1px solid #000;
+table.table1-2 th,
+table.table1-2 td {
+    border: 1px solid black;
+    padding: 10px;
     text-align: center;
-    padding: 8px;
 }
 
-#table3 th:nth-child(1),
-#table3 td:nth-child(1) {
-    width: 30%;
+/* Mengatur lebar kolom dengan nth-child */
+table.table1-2 td:nth-child(1),
+table.table1-2 th:nth-child(1) {
+    width: 33%;
 }
 
-#table3 th:nth-child(2),
-#table3 td:nth-child(2) {
-    width: 30%;
+table.table1-2 td:nth-child(2),
+table.table1-2 th:nth-child(2) {
+    width: 33%;
 }
 
-#table3 th:nth-child(3),
-#table3 td:nth-child(3) {
-    width: 40%;
+table.table1-2 td:nth-child(3),
+table.table1-2 th:nth-child(3) {
+    width: 33%;
 }
 
-/* ------------------------------------------------------------------------------------------------------------------ */
-#table3a {
-    font-family: "Times New Roman", Times, serif;
+table td:nth-child(3).angka {
+    text-align: right;
+}
+
+/* ================================================ Tabel 3 =========================================================== */
+table.table3 {
     width: 100%;
     border-collapse: collapse;
-    font-size: 11px;
+    margin-bottom: 20px;
 }
 
-#table3a th,
-#table3a td {
+table.table3 th,
+table.table3 td {
+    padding: 1px;
     text-align: left;
-    padding: 8px;
 }
 
-#table3a th:nth-child(1),
-#table3a td:nth-child(1) {
+/* Mengatur lebar kolom dengan nth-child */
+table.table3 td:nth-child(1),
+table.table3 th:nth-child(1) {
     width: 34%;
 }
 
-#table3a th:nth-child(2),
-#table3a td:nth-child(2) {
+table.table3 td:nth-child(2),
+table.table3 th:nth-child(2) {
     width: 3%;
 }
 
-#table3a th:nth-child(3),
-#table3a td:nth-child(3) {
+table.table3 td:nth-child(3),
+table.table3 th:nth-child(3) {
     width: 61%;
 }
 
 .titletbl {
-    font-size: 11px;
-    text-align: center;
-    /* padding-top: 20px; */
-    line-height: 2px;
-    /* margin-left: 10px; */
-    padding-bottom: 10px;
+    line-height: 1.3;
+    font-weight: bold;
+    margin: 5px 0;
 }
 
 .rinci1 {
-    font-size: 11px;
     text-align: left;
-    padding-bottom: 10px;
-    line-height: 2px;
-    padding-top: 2px;
+    line-height: 1.3;
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+ol li {
+    margin: 8px 15px;
 }
 
 ul.strip-bullets {
@@ -122,7 +166,7 @@ ul.strip-bullets {
 
 ul.strip-bullets li {
     position: relative;
-    padding-left: 15px;
+    padding-left: 5px;
     /* Jarak antara bullet strip dan teks */
     margin-bottom: 5px;
     /* Jarak antara item daftar */
@@ -132,7 +176,7 @@ ul.strip-bullets li::before {
     content: "-";
     /* Menambahkan bullet strip */
     position: absolute;
-    left: 0;
+    left: -10;
     color: black;
     /* Warna strip, bisa diubah sesuai keinginan */
 }

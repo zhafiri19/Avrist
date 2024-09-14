@@ -8,82 +8,103 @@
     <link rel="stylesheet" href="{{ 'css/collection/remindernoticebilling.css' }}">
 </head>
 
-
 <body>
-    <header>
-        <h1><u>PEMBERITAHUAN TAGIHAN ULANG</u></h1>
-        <h2><b><i>REMINDER NOTICE</i></b> </h2>
-    </header>
+    <div class="header">
+        <div class="header-text">
+            <h1 class="indonesian-header">Pemberitahuan Tagihan Ulang</h1>
+            <p class="english-header">Reminder Notice</p>
+        </div>
+        {{-- logo Avrist --}}
+        <div class="header-logo">
+            <img src="{{ 'avrist.png' }}" alt="PT Avrist Assurance">
+        </div>
+    </div>
 
     <section class="billing-info">
-        <p><strong>[100] - PT AVRIST ASSURANCE</strong></p>
-        <p>GEDUNG WORLD TRADE CENTER II LT. 7</p>
-        <p> JL. JEND. SUDIRMAN KAV. 29-31</p>
-        <p> JAKARTA</p>
-        <p> DKI JAKARTA 12920 INDONESIA</p>
-        <p><strong>UP : BAPAK GUSTIA RACHMAT ANASRIL</strong></p>
+        <span class="indonesia">Tanggal Cetak</span>
+        <span class="colon">:</span>
+        <span class="date">02 May, 2024</span>
+        <div class="inggris">Statement Date</div>
+        <p><b>[100] - PT AVRIST ASSURANCE</b></p>
+        <p>GEDUNG WORLD TRADE CENTER II LT. 7
+            JL. JEND. SUDIRMAN KAV. 29-31
+            JAKARTA
+            DKI JAKARTA 12920 INDONESIA
+        </p>
+        <b>UP : BAPAK GUSTIA RACHMAT ANASRIL</b>
+        <h5>CC :</h5>
     </section>
-    <h5><b>CC :</b></h5>
-    <table id="table3">
+
+    <table class="table1-2">
         <tr>
-            <th class="titletbl"><u>No. Polis</u>
-                <p><i>Policy No</i></p>
+            <th>
+                <div class="indonesia">No. Polis</div>
+                <div class="inggris">Policy No</div>
             </th>
-            <th class="titletbl"><u>Pemegang Polis</u>
-                <p><i>Policyholder</i></p>
+            <th>
+                <div class="indonesia">Pemegang Polis</div>
+                <div class="inggris">Policyholder</div>
             </th>
-            <th class="titletbl"><u>Status Polis</u>
-                <p> <i>Status of Policy</i></p>
+            <th>
+                <div class="indonesia">Status Polis</div>
+                <div class="inggris">Status of Policy</div>
             </th>
         </tr>
         <tr>
             <td>0000093065</td>
             <td>PT AVRIST ASSURANCE</td>
-            <td> A</td>
+            <td>A</td>
         </tr>
     </table>
-    {{-- --------------------------------------------------------------------------------------------------------------- --}}
-    <table id="table3">
+
+    <table class="table1-2">
         <tr>
-            <th class="titletbl"><u>Tagihan</u>
-                <p><i>Billing</i></p>
+            <th>
+                <div class="indonesia">Tagihan</div>
+                <div class="inggris">Billing</div>
             </th>
-            <th class="titletbl"><u>Mata Uang</u>
-                <p><i>Currency</i></p>
+            <th>
+                <div class="indonesia">Mata Uang</div>
+                <div class="inggris">Currency</div>
             </th>
-            <th class="titletbl"><u>Jumlah yang Harus Dibayar</u>
-                <p> <i>Amount to be Paid</i></p>
+            <th>
+                <div class="indonesia">Jumlah yang Harus Dibayar</div>
+                <div class="inggris">Amount to be Paid</div>
             </th>
         </tr>
         <tr>
             <td>PREMIUM</td>
-            <td>IDR </td>
-            <td style="text-align: right"> 257,870,642.00 *</td>
+            <td>IDR</td>
+            <td class="angka">257,870,642.00 *</td>
         </tr>
         <tr>
             <td>EXCESS OF CLAIMS</td>
-            <td>IDR </td>
-            <td style="text-align: right"> 8,601,097.80 *</td>
+            <td>IDR</td>
+            <td class="angka">8,601,097.80 *</td>
         </tr>
     </table>
-    <p class="rinci1">* Rincian tagihan dapat dilihat pada lampiran / <i> Please see the attachment
+
+    <p>* Rincian tagihan dapat dilihat pada lampiran / <i> Please see the attachment
             for the details</i></p>
     <div class="rinci1">
         <p>Menurut catatan kami, per tanggal <b><i>Apr 14,
-                    2023,</i></b> pembayaran premi dan/atau excess claim tersebut di atas belum kami </p>
-        <p>terima. Agar manfaat polis tetap berlaku, harap membayar tagihan sebelum tanggal
+                    2023,</i></b> pembayaran premi dan/atau excess claim tersebut di atas belum kami
+            terima. Agar manfaat polis tetap berlaku, harap membayar tagihan sebelum tanggal
             <b><i>May 29, 2023</i></b>
         </p>
         <p><i>Please be informed that as at <b>Apr 14, 2023</b>, we
-                have not received premium and/or excess of claims of the above.</i></p>
-        <p><i>To keep the policy,
-                please settle payment before <b>May 29, 2023</b></i></p>
-    </div>
-    <div class="titletbl" style="text-align: left"><b><u>Harap pembayaran dilakukan ke :</u></b>
-        <p><b><i>Please make payment to :</i></b></p>
+                have not received premium and/or excess of claims of the above.</i>
+            <i>To keep the policy,
+                please settle payment before <b>May 29, 2023</b></i>
+        </p>
     </div>
 
-    <table id="table3a">
+    <div class="titletbl">
+        <div class="indonesia">Harap Pembayaran dilakukan ke :</div>
+        <div class="inggris">Please make payment to :</div>
+    </div>
+
+    <table class="table3">
         <tr>
             <td>Nama Rekening / <i>Account Name</i></td>
             <td>:</td>
@@ -113,38 +134,45 @@
         <tr>
             <td>Catatan / <i>Remarks </i> </td>
             <td>:</td>
-            <td class="rinci1">
-                <p><u>Cantumkan no polis dan nama perusahaan pada saat pembayaran</u></p>
-                <p><i>Please state policy number and company name when making payment</i></p>
+            <td>
+                <div class="indonesia">Cantumkan no polis dan nama perusahaan pada saat pembayaran</div>
+                <div class="inggris">Please state policy number and company name when making payment</div>
             </td>
         </tr>
     </table>
-    <div class="rinci1"><u>Mohon infokan bukti serta detail pembayaran ke : Collection.Team@Avrist.com</u>
-        <p><i>Please send the receive and details of payment to : Collection.Team@Avrist.com</i></p>
+
+    <div class="indonesia">Mohon infokan bukti serta detail pembayaran ke : Collection.Team@Avrist.com</div>
+    <div class="inggris">Please send the receive and details of payment to : Collection.Team@Avrist.com</div>
+
+    <div class="titletbl">
+        <div class="indonesia">Informasi Penting</div>
+        <div class="inggris">Important Information</div>
     </div>
-    <div class="rinci1">
-        <p><b><u>Informasi Penting</u></b></p>
-        <p><i><b>Important Information</b></i></p>
-    </div>
+
     <ol>
-        <li class="rinci1">
-            Pembayaran harus sudah kami terima sebelum atau pada tanggal jatuh tempo
-            <p><i>Payment must be received before or on the due date</i></p>
-        </li>
         <li>
-            PT Avrist Assurance berhak melakukan penghentian layanan apabila terdapat tunggakan tagihan, terdiri atas :
-            <p><i>PT Avrist Assurance reserves the right to suspend service if the policy has overdue :</i></p>
+            <div class="indonesia"> Pembayaran harus sudah kami terima sebelum atau pada tanggal jatuh tempo</div>
+            <div class="inggris">Payment must be received before or on the due date</div>
+        </li>
+
+        <li>
+            <div class="indonesia"> PT Avrist Assurance berhak melakukan penghentian layanan apabila terdapat tunggakan
+                tagihan, terdiri atas :</div>
+            <div class="inggris">PT Avrist Assurance reserves the right to suspend service if the policy has overdue :
+            </div>
             <ul class="strip-bullets">
                 <li>Penundaan pembayaran klaim /<i>Pending all claim payment</i> </li>
                 <li>Penutupan fasilitas provider Rumah Sakit / <i>Close hospital provider</i></li>
                 <li>Pembatalan polis / <i>Terminate the policy</i></li>
             </ul>
         </li>
-        <p></p>
-        <li class="rinci1">
-            Apabila memerlukan informasi lebih lanjut, silahkan menghubungi Customer Service kami di (021) 5789 8188 ext
-            5231
-            <p><i>If need any informations, please contact our Customer Service at (021) 5789 8188 ext 5231</i></p>
+
+        <li>
+            <div class="indonesia"> Apabila memerlukan informasi lebih lanjut, silahkan menghubungi Customer Service
+                kami di (021) 5789 8188 ext
+                5231</div>
+            <div class="inggris">If need any informations, please contact our Customer Service at (021) 5789 8188 ext
+                5231</div>
         </li>
     </ol>
     <div class="rinci1">

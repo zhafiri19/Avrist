@@ -45,7 +45,7 @@ class UnderwritingController extends Controller
     {
 
         $title = ["title" => "PR v2.1.2022"];
-        $pdf = PDF::loadview('underwriting.form-payment-request.PRv212022_pdf', $title);
+        $pdf = PDF::loadview('underwriting.form-payment-request.PRv212022_pdf', $title)->setPaper('Legal', 'Portrait');
         return $pdf->stream('PR v2.1.2022.pdf');
     }
 
@@ -71,5 +71,13 @@ class UnderwritingController extends Controller
         $title = ["title" => "Statement of Local Loss Free atau LLF"];
         $pdf = PDF::loadview('underwriting.form-payment-request.statementoflocallossfreeataullf_pdf', $title);
         return $pdf->stream('Statement of Local Loss Free atau LLF.pdf');
+    }
+
+
+    public function cetakpdf9()
+    {
+        $title = ["title" => "Test 1"];
+        $pdf = PDF::loadview('uji.test1', $title);
+        return $pdf->stream('Test 1.pdf');
     }
 }

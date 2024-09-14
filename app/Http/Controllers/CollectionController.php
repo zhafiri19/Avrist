@@ -12,7 +12,7 @@ class CollectionController extends Controller
     public function cetakpdf()
     {
         $title = ["title" => "Reminder Notice Billing"];
-        $pdf = PDF::loadview('collection.remindernoticebilling_pdf', $title)->setPaper('Tabloid', 'Portrait');
+        $pdf = PDF::loadview('collection.remindernoticebilling_pdf', $title)->setPaper('Legal', 'portrait');
         return $pdf->stream('Reminder Notice Billing.pdf');
     }
     public function cetakpdf2()

@@ -71,49 +71,52 @@
                     </ul>
                 </li>
 
-                {{-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    Undewriting
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li class="dropdown-submenu">
-                        <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                            role="button" data-bs-toggle="dropdown" aria-expanded="false">Tarikan report claim dan
-                            premium per polis Code
-                            ID</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/claimratio/cetakpdf" target="_blank">Claim
-                                    ratio</a></li>
-                            <li><a class="dropdown-item" href="/summary/cetakpdf2" target="_blank">Summary</a>
-                            </li>
-                            <li><a class="dropdown-item" href="/detailclaim/cetakpdf3" target="_blank">Detail
-                                    Claim</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown-submenu">
-                        <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                            role="button" data-bs-toggle="dropdown" aria-expanded="false">Form Payment
-                            Request</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/guidelines/cetakpdf4" target="_blank">Guidelines</a>
-                            </li>
-                            <li><a class="dropdown-item" href="/PRv2.1.2022/cetakpdf5" target="_blank">PR
-                                    V2.1.2022</a></li>
-                        </ul>
-                    </li>
-                    <li><a class="dropdown-item" href="/perhitunganprofitsharing/cetakpdf6"
-                            target="_blank">Perhitungan Profit Sharing</a>
-                    </li>
-                    <li><a class="dropdown-item" href="/perhitunganstoploss/cetakpdf7" target="_blank">Perhitungan
-                            Stop Loss</a></li>
-                    <li><a class="dropdown-item" href="/statementoflocallossfreeataullf/cetakpdf8"
-                            target="_blank">Statement of Local Loss Free atau
-                            LLF</a></li>
-                </ul>
-            </li> --}}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Undewriting
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">Tarikan report claim dan
+                                premium per polis Code
+                                ID</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/claimratio/cetakpdf" target="_blank">Claim
+                                        ratio</a></li>
+                                <li><a class="dropdown-item" href="/summary/cetakpdf2" target="_blank">Summary</a>
+                                </li>
+                                <li><a class="dropdown-item" href="/detailclaim/cetakpdf3" target="_blank">Detail
+                                        Claim</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">Form Payment
+                                Request</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/guidelines/cetakpdf4"
+                                        target="_blank">Guidelines</a>
+                                </li>
+                                <li><a class="dropdown-item" href="/PRv2.1.2022/cetakpdf5" target="_blank">PR
+                                        V2.1.2022</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item" href="/perhitunganprofitsharing/cetakpdf6"
+                                target="_blank">Perhitungan Profit Sharing</a>
+                        </li>
+                        <li><a class="dropdown-item" href="/perhitunganstoploss/cetakpdf7"
+                                target="_blank">Perhitungan
+                                Stop Loss</a></li>
+                        <li><a class="dropdown-item" href="/statementoflocallossfreeataullf/cetakpdf8"
+                                target="_blank">Statement of Local Loss Free atau
+                                LLF</a></li>
+                    </ul>
+                </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="/endorsement/cetakpdf" target="_blank">Endorsement</a>
+                    <a class="nav-link" aria-current="page" href="/endorsement/cetakpdf"
+                        target="_blank">Endorsement</a>
                 </li>
 
                 <li class="nav-item dropdown">
